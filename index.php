@@ -12,6 +12,6 @@
 	<title>Центр инженерных систем</title>
 </head>
 <body>
-<a href="" class="btn btn-danger">asd</a>
+
 </body>
 </html>
