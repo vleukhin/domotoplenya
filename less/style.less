@@ -1,5 +1,46 @@
-#a{
-	#b{
-		display: block;
+@import "vars";
+
+#page{
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+	font-family: Arial, serif;
+}
+
+header{
+	max-width: 1000px;
+	width: 100%;
+	height: 107px;
+	color: #5c5c5c;
+	margin: 21px auto;
+
+	.logo{
+		> div{
+			background-image: url(../images/logo.png);
+			height: 65px;
+			width: 230px;
+		}
+	}
+
+	.call{
+		text-align: center;
+
+		> div{
+			font-size: 22px;
+		}
+
+		> .phone{
+			font-size: 32px;
+		}
+	}
+
+	.contacts{
+		text-align: right;
+		font-size: 18px;
+		line-height: 22px;
+
+		.phone{
+			font-weight: bold;
+		}
 	}
 }
