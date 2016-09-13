@@ -17,14 +17,14 @@
 <div id="page">
 	<header>
 		<div class="row">
-			<div class="col-sm-3 col-md-4 col-xs-12 logo">
+			<div class="col-sm-4 col-xs-12 logo">
 				<div></div>
 			</div>
-			<div class="col-sm-5 col-md-4 col-xs-12 call">
+			<div class="col-sm-4 col-xs-12 call">
 				<div>Звоните на бесплатный номер</div>
 				<span class="phone">8 800 775 85 94</span>
 			</div>
-			<div class="col-sm-4 col-md-4 col-xs-12 contacts">
+			<div class="col-sm-4 col-xs-12 contacts">
 				<div>Москва <span class="phone">8 495 255 44 50</span></div>
 				<div>Тула <span class="phone">8 495 255 44 50</span></div>
 				<div>Почта для заявок <span class="phone">info@hotklimat.ru</span></div>
