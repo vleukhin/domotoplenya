@@ -36,11 +36,22 @@
 			<ul>
 				<li><a href="#">О компании</a></li>
 				<li><a href="#">Наши бренды</a></li>
-				<li><a href="#">Выбор отобления</a></li>
+				<li><a href="#">Выбор отопления</a></li>
 				<li><a href="#">Наши работы</a></li>
 				<li><a href="#">Отзывы</a></li>
 			</ul>
 		</nav>
+	</div>
+	<div id="slogan">
+		<div class="logo-bg">
+			<div class="heading">
+				Отопление частного дома	под ключ
+			</div>
+			<div class="locations">
+				Москва и область <br>
+				Тула и область
+			</div>
+		</div>
 	</div>
 </div>
 </body>

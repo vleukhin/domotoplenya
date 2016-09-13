@@ -18,12 +18,13 @@
   width: 100%;
   margin: 0 auto;
   font-family: Arial, serif;
+  color: #000;
 }
 header {
   max-width: 1000px;
   width: 100%;
   color: #5c5c5c;
-  margin: 21px auto;
+  margin: 16px auto;
 }
 header .logo > div {
   background-image: url(../images/logo.png);
@@ -71,4 +72,31 @@ header .contacts .phone {
 #menu nav ul > li a:hover {
   text-decoration: none;
   border-bottom: none;
+}
+.row {
+  margin: 0 !important;
+}
+#slogan {
+  background: url(../images/house.png) 0px -100px;
+  height: 539px;
+  background-size: 1320px;
+}
+#slogan .logo-bg {
+  background-image: url(../images/logo-bg.png);
+  width: 503px;
+  height: 566px;
+  margin: 0 4%;
+  padding: 105px 0;
+  text-align: center;
+}
+#slogan .logo-bg .heading {
+  font-size: 46px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 55px;
+}
+#slogan .logo-bg .locations {
+  font-size: 40px;
+  margin-top: 21px;
+  line-height: 61px;
 }
