@@ -93,8 +93,35 @@ header .contacts .phone {
   padding: 30px 5%;
 }
 #services .list ul {
-  font-size: 26px;
+  font-size: 25px;
   line-height: 45px;
+}
+#services .form .info {
+  text-align: center;
+  font-size: 18px;
+}
+#services .form .info span {
+  font-size: 32px;
+}
+#services .form .info .white-input {
+  width: 260px;
+}
+#services .form .info .red-button {
+  width: 170px;
+}
+.base-input {
+  height: 43px;
+  font-size: 14px;
+  border: none;
+  outline: none;
+}
+.white-input {
+  color: #b4b4b4;
+  padding: 22px;
+}
+.red-button {
+  background-color: #d71818;
+  color: #fff;
 }
 @import-once "vars";
 @media (max-width: 767px) {
@@ -124,6 +151,13 @@ header .contacts .phone {
     margin-top: 21px;
     line-height: 61px;
   }
+  #services .list {
+    padding-bottom: 30px;
+  }
+  #services .list ul {
+    font-size: 25px;
+    line-height: 38px;
+  }
 }
 @media (max-width: 767px) and (max-width: 400px) {
   #slogan {
@@ -139,5 +173,19 @@ header .contacts .phone {
   #slogan .logo-bg .locations {
     font-size: 1.5em;
     line-height: 40px;
+  }
+  #services .list ul {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+@media (max-width: 991px) {
+  #services .form .info .red-button {
+    width: 260px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #services .form .info .red-button {
+    width: 260px;
   }
 }

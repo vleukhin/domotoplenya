@@ -16,7 +16,7 @@
 	<title>Центр инженерных систем</title>
 
 	<script>
-		$(window).on('resize', function(){
+		$(window).on('resize', function () {
 			console.log(window.innerWidth)
 		})
 	</script>
@@ -64,15 +64,30 @@
 		</div>
 	</div>
 	<div id="services">
-		<div class="row">
-			<div class="col-xs-12 col-sm-6 list">
-				<ul>
-					<li>Все виды отопления</li>
-					<li>Комплектующие по оптовым ценам</li>
-					<li>Только известные бренды</li>
-					<li>Гарантия на работы</li>
-					<li>Гарантия на оборудование</li>
-				</ul>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 list">
+					<ul>
+						<li>Все виды отопления</li>
+						<li>Комплектующие по оптовым ценам</li>
+						<li>Только известные бренды</li>
+						<li>Гарантия на работы</li>
+						<li>Гарантия на оборудование</li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-6 form">
+					<div class="info">
+						Наши специалисты подберут для вас оптимальный вариант отопления. <br>
+						Мы не берем денег за консультацию. <br><br>
+						Звоните на бесплатный номер<br>
+						<span>8 800 775 85 94</span><br><br>
+						Или мы позвоним Вам сами <br><br>
+						<form action="#">
+							<input class="base-input white-input" type="text" placeholder="Введите свой номер">
+							<input class="base-input red-button" type="submit" value="Заказать звонок">
+						</form>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>

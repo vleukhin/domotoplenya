@@ -119,10 +119,45 @@ header {
 
 	.list {
 		ul {
-			font-size: 26px;
+			font-size: 25px;
 			line-height: 45px;
 		}
 	}
+
+	.form{
+		.info{
+			text-align: center;
+			font-size: 18px;
+
+			span{
+				font-size: 32px;
+			}
+
+			.white-input{
+				width: 260px;
+			}
+			.red-button{
+				width: 170px;
+			}
+		}
+	}
+}
+
+.base-input{
+	height: @input-height;
+	font-size: @input-font-size;
+	border: none;
+	outline: none;
+}
+
+.white-input{
+	color: #b4b4b4;
+	padding: 22px;
+}
+
+.red-button{
+	background-color: #d71818;
+	color: #fff;
 }
 
 @import "mobile.less";

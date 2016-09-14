@@ -38,6 +38,17 @@
 
 	}
 
+	#services {
+		.list {
+			ul {
+				font-size: 25px;
+				line-height: 38px;
+			}
+
+			padding-bottom: 30px;
+		}
+	}
+
 	@media (max-width: 400px) {
 		#slogan {
 			height: 435px;
@@ -56,11 +67,42 @@
 				}
 			}
 		}
+
+		#services {
+			.list {
+				ul {
+					font-size: 20px;
+					line-height: 30px;
+				}
+			}
+		}
 	}
 
 }
 
+// bs sm and xs
+@media (max-width: @screen-sm-max) {
+	#services {
+		.form {
+			.info {
+				.red-button {
+					width: 260px;
+				}
+			}
+		}
+	}
+}
+
 @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+	#services {
+		.form {
+			.info {
+				.red-button {
+					width: 260px;
+				}
+			}
+		}
+	}
 }
 
 @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
