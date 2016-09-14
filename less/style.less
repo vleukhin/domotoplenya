@@ -1,12 +1,17 @@
 @import "vars.less";
-@import "mobile.less";
+
+body{
+	color: #000;
+	font-family: Arial, serif;
+	line-height: normal;
+	margin: 0;
+	width: 100%;
+}
 
 #page {
 	max-width: @page-width;
 	width: 100%;
 	margin: 0 auto;
-	font-family: Arial, serif;
-	color: #000;
 }
 
 header {
@@ -79,35 +84,45 @@ header {
 	}
 }
 
-.row {
-	margin: 0 !important;
-}
-
-#slogan{
+#slogan {
 	background: url(../images/house.png) 0px -100px;
 	height: 539px;
 	background-size: 1320px;
 
-	.logo-bg{
-		background-image: url(../images/logo-bg.png);
-		width: 503px;
+	.logo-bg {
+		max-width: 503px;
 		height: 566px;
 		margin: 0 4%;
 		padding: 105px 0;
 		text-align: center;
+		background-size: 100%;
+		background: url(../images/logo-bg.png) no-repeat;
 
-
-		.heading{
+		.heading {
 			font-size: 46px;
 			font-weight: bold;
 			text-transform: uppercase;
 			line-height: 55px;
 		}
 
-		.locations{
+		.locations {
 			font-size: 40px;
 			margin-top: 21px;
 			line-height: 61px;
 		}
 	}
 }
+
+#services {
+	background-color: #fedb49;
+	padding: 30px 5%;
+
+	.list {
+		ul {
+			font-size: 26px;
+			line-height: 45px;
+		}
+	}
+}
+
+@import "mobile.less";

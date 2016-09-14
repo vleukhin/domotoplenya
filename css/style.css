@@ -1,24 +1,14 @@
-@import-once "vars";
-@media (max-width: 767px) {
-  header .row > div {
-    padding-bottom: 10px;
-  }
-  header .logo {
-    padding-left: 5%;
-  }
-  header .logo > div {
-    margin: 0 auto;
-  }
-  header .contacts {
-    text-align: center !important;
-  }
+body {
+  color: #000;
+  font-family: Arial, serif;
+  line-height: normal;
+  margin: 0;
+  width: 100%;
 }
 #page {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-  font-family: Arial, serif;
-  color: #000;
 }
 header {
   max-width: 1000px;
@@ -73,21 +63,19 @@ header .contacts .phone {
   text-decoration: none;
   border-bottom: none;
 }
-.row {
-  margin: 0 !important;
-}
 #slogan {
   background: url(../images/house.png) 0px -100px;
   height: 539px;
   background-size: 1320px;
 }
 #slogan .logo-bg {
-  background-image: url(../images/logo-bg.png);
-  width: 503px;
+  max-width: 503px;
   height: 566px;
   margin: 0 4%;
   padding: 105px 0;
   text-align: center;
+  background-size: 100%;
+  background: url(../images/logo-bg.png) no-repeat;
 }
 #slogan .logo-bg .heading {
   font-size: 46px;
@@ -99,4 +87,49 @@ header .contacts .phone {
   font-size: 40px;
   margin-top: 21px;
   line-height: 61px;
+}
+#services {
+  background-color: #fedb49;
+  padding: 30px 5%;
+}
+#services .list ul {
+  font-size: 26px;
+  line-height: 45px;
+}
+@import-once "vars";
+@media (max-width: 767px) {
+  header .row > div {
+    padding-bottom: 10px;
+  }
+  header .logo {
+    padding-left: 5%;
+  }
+  header .logo > div {
+    margin: 0 auto;
+  }
+  header .contacts {
+    text-align: center;
+  }
+  #slogan .logo-bg {
+    margin: 0 auto;
+  }
+  #slogan .logo-bg .heading {
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 55px;
+  }
+  #slogan .logo-bg .locations {
+    font-size: 2em;
+    margin-top: 21px;
+    line-height: 61px;
+  }
+}
+@media (max-width: 767px) and (max-width: 400px) {
+  #slogan .logo-bg .heading {
+    font-size: 2em;
+  }
+  #slogan .logo-bg .locations {
+    font-size: 1.5em;
+  }
 }

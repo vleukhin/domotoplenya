@@ -1,23 +1,64 @@
 @import-once "vars";
 
 @media (max-width: @screen-xs-max) {
-	header{
-		.row{
-			> div{
+	header {
+		.row {
+			> div {
 				padding-bottom: 10px;
 			}
 		}
 		.logo {
 			padding-left: 5%;
-			> div{
+			> div {
 				margin: 0 auto;
 			}
 		}
-		.contacts{
-			text-align: center !important;
+		.contacts {
+			text-align: center;
 		}
 	}
+
+	#slogan {
+		.logo-bg {
+			margin: 0 auto;
+
+			.heading {
+				font-size: 3em;
+				font-weight: bold;
+				text-transform: uppercase;
+				line-height: 55px;
+			}
+
+			.locations {
+				font-size: 2em;
+				margin-top: 21px;
+				line-height: 61px;
+			}
+		}
+
+	}
+
+	@media (max-width: 400px) {
+		#slogan {
+			.logo-bg {
+				.heading {
+					font-size: 2em;
+				}
+
+				.locations {
+					font-size: 1.5em;
+				}
+			}
+		}
+	}
+
 }
-@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { }
-@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { }
-@media (min-width: @screen-lg-min) {  }
+
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+}
+
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+}
+
+@media (min-width: @screen-lg-min) {
+}
