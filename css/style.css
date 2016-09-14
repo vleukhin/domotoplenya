@@ -74,8 +74,8 @@ header .contacts .phone {
   margin: 0 4%;
   padding: 105px 0;
   text-align: center;
-  background-size: 100%;
   background: url(../images/logo-bg.png) no-repeat;
+  background-size: contain;
 }
 #slogan .logo-bg .heading {
   font-size: 46px;
@@ -126,10 +126,18 @@ header .contacts .phone {
   }
 }
 @media (max-width: 767px) and (max-width: 400px) {
+  #slogan {
+    height: 435px;
+  }
+  #slogan .logo-bg {
+    padding: 25% 0;
+  }
   #slogan .logo-bg .heading {
     font-size: 2em;
+    line-height: 40px;
   }
   #slogan .logo-bg .locations {
     font-size: 1.5em;
+    line-height: 40px;
   }
 }

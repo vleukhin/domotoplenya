@@ -55,7 +55,7 @@
 	<div id="slogan">
 		<div class="logo-bg">
 			<div class="heading">
-				Отопление частного дома под ключ
+				Отопление <br>частного дома <br> под ключ
 			</div>
 			<div class="locations">
 				Москва и область <br>
