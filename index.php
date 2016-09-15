@@ -14,12 +14,6 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css"/>
 
 	<title>Центр инженерных систем</title>
-
-	<script>
-		$(window).on('resize', function () {
-			console.log(window.innerWidth)
-		})
-	</script>
 </head>
 <body>
 <div id="page">
@@ -94,18 +88,40 @@
 	<div id="flow">
 		<h1><span class="logo-short"></span>Центр инженерных систем</h1>
 		<div class="about">
-			Мы работаем на рынке строительных систем <span>с 2008 года</span>. Мы обустроили <br><span>более 2 000 домов</span> и предоставляем нашим клиентам полное сопровождение их заявок<br> <span>«под ключ»</span>: от первого звонка до сдачи проектной документации и помощи в эксплуатации.
+			Мы работаем на рынке строительных систем <span>с 2008 года</span>. Мы обустроили
+			<br><span>более 2 000 домов</span> и предоставляем нашим клиентам полное сопровождение их заявок<br> <span>«под ключ»</span>:
+			от первого звонка до сдачи проектной документации и помощи в эксплуатации.
 		</div>
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-xs-12 col-sm-6 work-flow">
 					<h1>Как мы работаем:</h1>
 					<ul>
-						<li><span>1</span> <i class="icon phone"></i> <div> Бесплатно консультируем Вас<br> по телефону</div></li><li class="clearfix"></li>
-						<li><span>2</span> <i class="icon man"></i> <div>Наш инженер выезжает<br> на Ваш объект</div></li><li class="clearfix"></li>
-						<li><span>3</span> <i class="icon edit"></i> <div>Подбираем отопительную систему <br> по Вашим параметрам</div></li><li class="clearfix"></li>
-						<li><span>4</span> <i class="icon maintain"></i> <div>Производим монтаж оборудования</div></li><li class="clearfix"></li>
-						<li><span>5</span> <i class="icon thumb"></i> <div>Запускаем оборудование<br> под нашим контролем</div></li><li class="clearfix"></li>
+						<li>
+							<span>1</span> <i class="icon phone"></i>
+							<div> Бесплатно консультируем Вас<br> по телефону</div>
+						</li>
+						<li class="clearfix"></li>
+						<li>
+							<span>2</span> <i class="icon man"></i>
+							<div>Наш инженер выезжает<br> на Ваш объект</div>
+						</li>
+						<li class="clearfix"></li>
+						<li>
+							<span>3</span> <i class="icon edit"></i>
+							<div>Подбираем отопительную систему <br> по Вашим параметрам</div>
+						</li>
+						<li class="clearfix"></li>
+						<li>
+							<span>4</span> <i class="icon maintain"></i>
+							<div>Производим монтаж оборудования</div>
+						</li>
+						<li class="clearfix"></li>
+						<li>
+							<span>5</span> <i class="icon thumb"></i>
+							<div>Запускаем оборудование<br> под нашим контролем</div>
+						</li>
+						<li class="clearfix"></li>
 					</ul>
 				</div>
 				<div class="col-xs-12 col-sm-6 form">
