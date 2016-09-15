@@ -264,6 +264,9 @@ header .contacts .phone {
   color: #b81e1e;
   margin-bottom: 7px;
 }
+#choise {
+  margin-bottom: 50px;
+}
 #choise > div {
   width: 100%;
   background-color: #fedb49;
@@ -289,6 +292,43 @@ header .contacts .phone {
 }
 #choise > div .call span {
   font-size: 18px;
+}
+#portfolio {
+  border-top: 1px solid #b81e1e;
+  border-bottom: 1px solid #b81e1e;
+  padding-bottom: 50px;
+}
+#portfolio .job {
+  padding: 20px;
+  max-width: 850px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+#portfolio .job img.main {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 435px;
+}
+#portfolio .job img.thumb {
+  max-width: 140px;
+  width: 45.75163399%;
+  margin: 5px;
+}
+#portfolio .job img.thumb.active {
+  border: 4px solid #5c5c5c;
+}
+#portfolio .job .title {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+#portfolio .job .descr {
+  font-size: 14px;
+  color: #5c5c5c;
+  margin-bottom: 25px;
+}
+#portfolio .job .descr span {
+  font-weight: bold;
 }
 h1 {
   font-size: 36px;
@@ -398,6 +438,12 @@ h1 {
   #flow .form > div {
     margin: 0 auto;
   }
+  #portfolio .job img.main {
+    margin-bottom: 30px;
+  }
+  #portfolio .job .title {
+    text-align: center;
+  }
 }
 @media (max-width: 767px) and (max-width: 400px) {
   #slogan {
@@ -423,6 +469,10 @@ h1 {
   }
   #flow .work-flow ul li > div {
     float: left;
+  }
+  #portfolio .job img.thumb {
+    margin: 5px auto;
+    display: block;
   }
 }
 @media (max-width: 991px) {

@@ -35,6 +35,7 @@
 			</div>
 		</div>
 	</header>
+
 	<div id="menu">
 		<nav>
 			<ul>
@@ -46,6 +47,7 @@
 			</ul>
 		</nav>
 	</div>
+
 	<div id="slogan">
 		<div class="logo-bg">
 			<div class="heading">
@@ -57,6 +59,7 @@
 			</div>
 		</div>
 	</div>
+
 	<div id="services">
 		<div class="container-fluid">
 			<div class="row">
@@ -85,6 +88,7 @@
 			</div>
 		</div>
 	</div>
+
 	<div id="flow">
 		<h1><span class="logo-short"></span>Центр инженерных систем</h1>
 		<div class="about">
@@ -144,6 +148,7 @@
 			</div>
 		</div>
 	</div>
+
 	<div id="brands">
 		<h1>Наши бренды</h1>
 		<div class="desc">
@@ -216,6 +221,7 @@
 			</div>
 		</div>
 	</div>
+
 	<div id="types">
 		<h1>Выбор отопления</h1>
 		<div class="desc">
@@ -270,7 +276,8 @@
 					<div class="descr">
 						<div class="advantages">
 							+ Экономичный расход материалов<br>
-							+ Высокий уровень теплоемкости: теплоемкость воды превышает в 4000 раз теплоемкость воздуха, нагретого до той же температуры<br>
+							+ Высокий уровень теплоемкости: теплоемкость воды превышает в 4000 раз теплоемкость воздуха,
+							нагретого до той же температуры<br>
 							+ Комфортный температурный режим<br>
 						</div>
 						<div class="disadvantage">
@@ -301,6 +308,7 @@
 			</div>
 		</div>
 	</div>
+
 	<div id="choise">
 		<div>
 			<h1>
@@ -315,6 +323,39 @@
 			<div class="call">
 				Или звоните на бесплатный номер <br>
 				<span>8 800 775 85 94</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="portfolio">
+		<h1>Наши работы</h1>
+		<div class="job">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xs-12 col-sm-7">
+						<img src="images/portfolio/1/1.png" alt="" class="main">
+					</div>
+					<div class="col-xs-12 col-sm-5">
+						<div class="title">
+							Тульская обл., Ленинский р-н,<br>
+							п. Октябрьский,<br>
+							СНТ Богучарово парк<br>
+						</div>
+						<div class="descr">
+							котел: <span>Vaillant</span> <br>
+							бойлер: <span>Vaillant</span> <br>
+							радиаторы: <span>стальная панель Dia Norm</span> <br>
+							система: <span>двухтрубная с нижней дводкой к  радиаторам</span> <br>
+							способ прокладки: <span>скрытый</span> <br>
+							материал труб: <span>полипропилен Kalde</span> (Турция) <br>
+							теплый пол: <span>сшитый полиэтилен KAN-therm (Польша)</span> <br>
+						</div>
+						<div class="images">
+							<a href="#"><img src="images/portfolio/1/1.png" alt="" class="thumb active"></a>
+							<a href="#"><img src="images/portfolio/1/1.png" alt="" class="thumb"></a>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
