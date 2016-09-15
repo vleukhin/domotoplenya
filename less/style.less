@@ -17,7 +17,7 @@ body {
 header {
 	max-width: 1000px;
 	width: 100%;
-	color: #5c5c5c;
+	color: @color-gray;
 	margin: 16px auto;
 
 	.logo {
@@ -52,7 +52,7 @@ header {
 }
 
 #menu {
-	background-color: #5c5c5c;
+	background-color: @color-gray;
 	font-size: 15px;
 	padding: 14px 0 8px;
 
@@ -114,7 +114,7 @@ header {
 }
 
 #services {
-	background-color: @yellow-color;
+	background-color: @color-yellow;
 	padding: 30px 5%;
 
 	.list {
@@ -144,7 +144,7 @@ header {
 }
 
 #flow {
-	padding: 22px percentage(100px/@page-width) 0;
+	padding: 22px percentage(100px/@page-width);
 
 	.logo-short {
 		vertical-align: middle;
@@ -166,7 +166,7 @@ header {
 
 	.about {
 		font-size: 18px;
-		color: #5c5c5c;
+		color: @color-gray;
 		width: 100%;
 		padding: 0 5%;
 		margin: 26px auto 0;
@@ -183,10 +183,10 @@ header {
 	}
 
 	.work-flow {
-		color: #5c5c5c;
+		color: @color-gray;
 		font-size: 18px;
 
-		h1{
+		h1 {
 			font-size: 24px;
 			font-weight: bold;
 			color: #000;
@@ -222,7 +222,7 @@ header {
 		padding-left: 7%;
 
 		> div {
-			background-color: @yellow-color;
+			background-color: @color-yellow;
 			width: 100%;
 			padding: 25px 15px;
 			max-width: 408px;
@@ -258,6 +258,53 @@ header {
 			span {
 				font-size: 18px;
 			}
+		}
+	}
+}
+
+#brands {
+	border-top: 1px solid #b81e1e;
+	border-bottom: 1px solid #5d5d5d;
+	padding: 22px percentage(100px/@page-width);
+
+	h1 {
+		font-size: 36px;
+		text-align: center;
+		font-weight: bold;
+	}
+
+	.desc {
+		font-size: 18px;
+		text-align: center;
+		color: @color-gray;
+
+		span {
+			font-size: 22px;
+			font-weight: bold;
+		}
+	}
+
+	.brand{
+		border: 1px solid #b81e1e;
+		width: 100%;
+		max-width: 240px;
+		padding: 24px;
+		margin: 0 auto 30px;
+
+		.logo{
+			display: block;
+			margin-bottom: 20px;
+		}
+
+		.descr{
+			font-size: 14px;
+			color: @color-gray;
+			margin-bottom: 20px;
+		}
+
+		a{
+			color: #b81e1e;
+			text-decoration: underline;
 		}
 	}
 }

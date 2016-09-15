@@ -110,7 +110,7 @@ header .contacts .phone {
   width: 170px;
 }
 #flow {
-  padding: 22px 8.33333333% 0;
+  padding: 22px 8.33333333%;
 }
 #flow .logo-short {
   vertical-align: middle;
@@ -208,6 +208,45 @@ header .contacts .phone {
 }
 #flow .form .call span {
   font-size: 18px;
+}
+#brands {
+  border-top: 1px solid #b81e1e;
+  border-bottom: 1px solid #5d5d5d;
+  padding: 22px 8.33333333%;
+}
+#brands h1 {
+  font-size: 36px;
+  text-align: center;
+  font-weight: bold;
+}
+#brands .desc {
+  font-size: 18px;
+  text-align: center;
+  color: #5c5c5c;
+}
+#brands .desc span {
+  font-size: 22px;
+  font-weight: bold;
+}
+#brands .brand {
+  border: 1px solid #b81e1e;
+  width: 100%;
+  max-width: 240px;
+  padding: 24px;
+  margin: 0 auto 30px;
+}
+#brands .brand .logo {
+  display: block;
+  margin-bottom: 20px;
+}
+#brands .brand .descr {
+  font-size: 14px;
+  color: #5c5c5c;
+  margin-bottom: 20px;
+}
+#brands .brand a {
+  color: #b81e1e;
+  text-decoration: underline;
 }
 .icon {
   display: inline-block;
