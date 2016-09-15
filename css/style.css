@@ -330,10 +330,36 @@ header .contacts .phone {
 #portfolio .job .descr span {
   font-weight: bold;
 }
+#reviews {
+  padding: 22px 8.33333333%;
+}
+#reviews .review {
+  padding: 0 50px;
+  margin-bottom: 30px;
+}
+#reviews .review .text {
+  font-size: 16px;
+  color: #5c5c5c;
+  font-style: italic;
+  line-height: 22px;
+  margin-bottom: 15px;
+}
+#reviews .review .text span {
+  font-size: 36px;
+}
+#reviews .review .name {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 30px;
+}
+#reviews .review .location {
+  font-size: 14px;
+}
 h1 {
   font-size: 36px;
   text-align: center;
   font-weight: bold;
+  margin: 40px auto;
 }
 .desc {
   font-size: 18px;

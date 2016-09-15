@@ -414,10 +414,44 @@ header {
 	}
 }
 
+#reviews{
+	padding: 22px percentage(100px/@page-width);
+
+	.review{
+		padding: 0 50px;
+		margin-bottom: 30px;
+
+		.text{
+			font-size: 16px;
+			color: @color-gray;
+			font-style: italic;
+			line-height: 22px;
+			margin-bottom: 15px;
+
+			span{
+				font-size: 36px;
+			}
+		}
+
+		.name{
+			font-size: 16px;
+			font-weight: bold;
+			line-height: 30px;
+		}
+
+		.location{
+			font-size: 14px;
+		}
+
+
+	}
+}
+
 h1 {
 	font-size: 36px;
 	text-align: center;
 	font-weight: bold;
+	margin: 40px auto;
 }
 
 .desc {
