@@ -109,6 +109,133 @@ header .contacts .phone {
 #services .form .info .red-button {
   width: 170px;
 }
+#flow {
+  padding: 22px 8.33333333% 0;
+}
+#flow .logo-short {
+  vertical-align: middle;
+  margin-right: 15px;
+}
+#flow > h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+#flow > h1:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+#flow .about {
+  font-size: 18px;
+  color: #5c5c5c;
+  width: 100%;
+  padding: 0 5%;
+  margin: 26px auto 0;
+  text-align: center;
+  margin-bottom: 53px;
+}
+#flow .about span {
+  font-weight: bold;
+}
+#flow .container-fluid {
+  margin-top: 30px;
+}
+#flow .work-flow {
+  color: #5c5c5c;
+  font-size: 18px;
+}
+#flow .work-flow h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+  padding: 0 12%;
+  margin: 0 0 24px;
+}
+#flow .work-flow ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#flow .work-flow ul li {
+  margin-bottom: 10px;
+}
+#flow .work-flow ul li span {
+  vertical-align: middle;
+  display: inline-block;
+  background-color: #b81e1e;
+  width: 26px;
+  height: 26px;
+  border-radius: 13px;
+  color: #fff;
+  text-align: center;
+  margin-right: 10px;
+  float: left;
+}
+#flow .form {
+  padding-left: 7%;
+}
+#flow .form > div {
+  background-color: #fedb49;
+  width: 100%;
+  padding: 25px 15px;
+  max-width: 408px;
+}
+#flow .form .dialog {
+  font-size: 24px;
+  line-height: 30px;
+  padding-left: 22px;
+}
+#flow .form .dialog p {
+  font-size: 34px;
+  padding-left: 30px;
+}
+#flow .form .left-number {
+  text-align: center;
+  font-size: 18px;
+  margin: 25px 0;
+}
+#flow .form .base-input {
+  display: block;
+  margin: 0 auto;
+  width: 63.23529412%;
+}
+#flow .form .call {
+  margin-top: 25px;
+  font-size: 14px;
+  text-align: center;
+}
+#flow .form .call span {
+  font-size: 18px;
+}
+.icon {
+  display: inline-block;
+  background: url(../images/sprite.png) no-repeat;
+  vertical-align: middle;
+  width: 54px;
+  float: left;
+  margin-right: 10px;
+}
+.icon.phone {
+  height: 39px;
+}
+.icon.man {
+  background-position-y: -40px;
+  height: 59px;
+}
+.icon.edit {
+  background-position-y: -99px;
+  height: 48px;
+}
+.icon.maintain {
+  background-position-y: -150px;
+  height: 48px;
+}
+.icon.thumb {
+  background-position-y: -199px;
+  height: 44px;
+}
 .base-input {
   height: 43px;
   font-size: 14px;
@@ -122,6 +249,12 @@ header .contacts .phone {
 .red-button {
   background-color: #d71818;
   color: #fff;
+}
+.logo-short {
+  background-image: url(../images/logo-short.png);
+  width: 59px;
+  height: 65px;
+  display: inline-block;
 }
 @import-once "vars";
 @media (max-width: 767px) {
@@ -158,6 +291,16 @@ header .contacts .phone {
     font-size: 25px;
     line-height: 38px;
   }
+  #flow .work-flow {
+    padding-bottom: 20px;
+    margin: 0 auto;
+  }
+  #flow .form {
+    margin: 0 auto;
+  }
+  #flow .form > div {
+    margin: 0 auto;
+  }
 }
 @media (max-width: 767px) and (max-width: 400px) {
   #slogan {
@@ -178,6 +321,12 @@ header .contacts .phone {
     font-size: 20px;
     line-height: 30px;
   }
+  #flow .work-flow ul li {
+    margin-bottom: 20px;
+  }
+  #flow .work-flow ul li > div {
+    float: left;
+  }
 }
 @media (max-width: 991px) {
   #services .form .info .red-button {
@@ -187,5 +336,15 @@ header .contacts .phone {
 @media (min-width: 768px) and (max-width: 991px) {
   #services .form .info .red-button {
     width: 260px;
+  }
+}
+@media (max-width: 1119px) {
+  #flow .form .dialog {
+    font-size: 20px;
+    padding-left: 22px;
+  }
+  #flow .form .dialog p {
+    font-size: 22px;
+    padding-left: 12px;
   }
 }

@@ -9,9 +9,9 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="stylesheet" type="text/css" href="css/style.css"/>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
 
 	<title>Центр инженерных систем</title>
 
@@ -86,6 +86,43 @@
 							<input class="base-input white-input" type="text" placeholder="Введите свой номер">
 							<input class="base-input red-button" type="submit" value="Заказать звонок">
 						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="flow">
+		<h1><span class="logo-short"></span>Центр инженерных систем</h1>
+		<div class="about">
+			Мы работаем на рынке строительных систем <span>с 2008 года</span>. Мы обустроили <br><span>более 2 000 домов</span> и предоставляем нашим клиентам полное сопровождение их заявок<br> <span>«под ключ»</span>: от первого звонка до сдачи проектной документации и помощи в эксплуатации.
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 work-flow">
+					<h1>Как мы работаем:</h1>
+					<ul>
+						<li><span>1</span> <i class="icon phone"></i> <div> Бесплатно консультируем Вас<br> по телефону</div></li><li class="clearfix"></li>
+						<li><span>2</span> <i class="icon man"></i> <div>Наш инженер выезжает<br> на Ваш объект</div></li><li class="clearfix"></li>
+						<li><span>3</span> <i class="icon edit"></i> <div>Подбираем отопительную систему <br> по Вашим параметрам</div></li><li class="clearfix"></li>
+						<li><span>4</span> <i class="icon maintain"></i> <div>Производим монтаж оборудования</div></li><li class="clearfix"></li>
+						<li><span>5</span> <i class="icon thumb"></i> <div>Запускаем оборудование<br> под нашим контролем</div></li><li class="clearfix"></li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-6 form">
+					<div>
+						<div class="dialog">
+							— С чего начать?
+							<p>— С консультации!</p>
+						</div>
+						<div class="left-number">Оставьте свой номер,<br>и мы перезвоним вам в течение 30 секунд</div>
+						<form action="#">
+							<input class="base-input white-input" type="text" placeholder="Введите свой номер">
+							<input class="base-input red-button" type="submit" value="Заказать звонок">
+						</form>
+						<div class="call">
+							Или звоните на бесплатный номер <br>
+							<span>8 800 775 85 94</span>
+						</div>
 					</div>
 				</div>
 			</div>

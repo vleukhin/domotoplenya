@@ -49,6 +49,21 @@
 		}
 	}
 
+	#flow {
+		.work-flow {
+			padding-bottom: 20px;
+			margin: 0 auto;
+		}
+
+		.form{
+			margin: 0 auto;
+
+			> div{
+				margin: 0 auto;
+			}
+		}
+	}
+
 	@media (max-width: 400px) {
 		#slogan {
 			height: 435px;
@@ -73,6 +88,20 @@
 				ul {
 					font-size: 20px;
 					line-height: 30px;
+				}
+			}
+		}
+
+		#flow {
+			.work-flow {
+				ul {
+					li {
+						> div {
+							float: left;
+						}
+
+						margin-bottom: 20px;
+					}
 				}
 			}
 		}
@@ -105,7 +134,25 @@
 	}
 }
 
-@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+// bd md and smaller
+
+@media (max-width: @screen-md-max) {
+	#flow {
+		.form{
+			.dialog{
+				font-size: 20px;
+				padding-left: 22px;
+
+				p {
+					font-size: 22px;
+					padding-left: 12px;
+				}
+			}
+
+
+		}
+	}
+
 }
 
 @media (min-width: @screen-lg-min) {

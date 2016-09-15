@@ -1,6 +1,6 @@
 @import "vars.less";
 
-body{
+body {
 	color: #000;
 	font-family: Arial, serif;
 	line-height: normal;
@@ -114,7 +114,7 @@ header {
 }
 
 #services {
-	background-color: #fedb49;
+	background-color: @yellow-color;
 	padding: 30px 5%;
 
 	.list {
@@ -124,40 +124,199 @@ header {
 		}
 	}
 
-	.form{
-		.info{
+	.form {
+		.info {
 			text-align: center;
 			font-size: 18px;
 
-			span{
+			span {
 				font-size: 32px;
 			}
 
-			.white-input{
+			.white-input {
 				width: 260px;
 			}
-			.red-button{
+			.red-button {
 				width: 170px;
 			}
 		}
 	}
 }
 
-.base-input{
+#flow {
+	padding: 22px percentage(100px/@page-width) 0;
+
+	.logo-short {
+		vertical-align: middle;
+		margin-right: 15px;
+	}
+
+	> h1 {
+		&:before {
+			content: "";
+			display: inline-block;
+			vertical-align: middle;
+			height: 100%;
+		}
+
+		font-size: 36px;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	.about {
+		font-size: 18px;
+		color: #5c5c5c;
+		width: 100%;
+		padding: 0 5%;
+		margin: 26px auto 0;
+		text-align: center;
+		margin-bottom: 53px;
+
+		span {
+			font-weight: bold;
+		}
+	}
+
+	.container-fluid {
+		margin-top: 30px;
+	}
+
+	.work-flow {
+		color: #5c5c5c;
+		font-size: 18px;
+
+		h1{
+			font-size: 24px;
+			font-weight: bold;
+			color: #000;
+			padding: 0 12%;
+			margin: 0 0 24px;
+		}
+
+		ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+
+			li {
+				span {
+					vertical-align: middle;
+					display: inline-block;
+					background-color: #b81e1e;
+					width: 26px;
+					height: 26px;
+					border-radius: 13px;
+					color: #fff;
+					text-align: center;
+					margin-right: 10px;
+					float: left;
+				}
+
+				margin-bottom: 10px;
+			}
+		}
+	}
+
+	.form {
+		padding-left: 7%;
+
+		> div {
+			background-color: @yellow-color;
+			width: 100%;
+			padding: 25px 15px;
+			max-width: 408px;
+		}
+
+		.dialog {
+			font-size: 24px;
+			line-height: 30px;
+			padding-left: 22px;
+
+			p {
+				font-size: 34px;
+				padding-left: 30px;
+			}
+		}
+
+		.left-number {
+			text-align: center;
+			font-size: 18px;
+			margin: 25px 0;
+		}
+
+		.base-input {
+			display: block;
+			margin: 0 auto;
+			width: percentage(258px/408px);
+		}
+
+		.call {
+			margin-top: 25px;
+			font-size: 14px;
+			text-align: center;
+			span {
+				font-size: 18px;
+			}
+		}
+	}
+}
+
+.icon {
+	display: inline-block;
+	background: url(../images/sprite.png) no-repeat;
+	vertical-align: middle;
+	width: 54px;
+	float: left;
+	margin-right: 10px;
+
+	&.phone {
+		height: 39px;
+	}
+
+	&.man {
+		background-position-y: -40px;
+		height: 59px;
+	}
+
+	&.edit {
+		background-position-y: -99px;
+		height: 48px;
+	}
+
+	&.maintain {
+		background-position-y: -150px;
+		height: 48px;
+	}
+
+	&.thumb {
+		background-position-y: -199px;
+		height: 44px;
+	}
+}
+
+.base-input {
 	height: @input-height;
 	font-size: @input-font-size;
 	border: none;
 	outline: none;
 }
 
-.white-input{
+.white-input {
 	color: #b4b4b4;
 	padding: 22px;
 }
 
-.red-button{
+.red-button {
 	background-color: #d71818;
 	color: #fff;
+}
+
+.logo-short {
+	background-image: url(../images/logo-short.png);
+	width: 59px;
+	height: 65px;
+	display: inline-block;
 }
 
 @import "mobile.less";
