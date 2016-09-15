@@ -405,7 +405,22 @@
 			</div>
 		</div>
 	</div>
-</div>
+
+	<footer>
+		<h1>Задайте вопрос нашему консультанту и получите <br>квалифицированный ответ.</h1>
+		<div class="no-money">Мы не берем денег за консультацию.</div>
+		<div>
+			<form action="#">
+				<span>Закажите звонок</span>
+				<input class="base-input white-input" type="text" placeholder="Введите свой номер">
+				<input class="base-input red-button" type="submit" value="Заказать звонок">
+			</form>
+		</div>
+		<div class="contacts">
+			<div>Или звоните на бесплатный номер  <span>8 800 775 85 94</span></div>
+			<div>Мы ответим на все заявки, которые Вы пришлете на почту <span>info@hotklimat.ru</span></div>
+		</div>
+	</footer>
 </div>
 </body>
 </html>

@@ -355,6 +355,40 @@ header .contacts .phone {
 #reviews .review .location {
   font-size: 14px;
 }
+footer {
+  background-color: #fedb49;
+  padding: 40px 20px;
+  text-align: center;
+}
+footer h1 {
+  font-size: 30px;
+  margin: 0;
+}
+footer .no-money {
+  font-size: 20px;
+  margin: 20px 0;
+}
+footer .base-input {
+  display: inline-block;
+}
+footer form span {
+  font-size: 24px;
+  display: inline-block;
+  margin-right: 10px;
+}
+footer form .white-input {
+  width: 260px;
+}
+footer form .red-button {
+  width: 170px;
+}
+footer .contacts {
+  margin: 20px auto;
+  font-size: 18px;
+}
+footer .contacts span {
+  font-size: 32px;
+}
 h1 {
   font-size: 36px;
   text-align: center;
@@ -469,6 +503,22 @@ h1 {
   }
   #portfolio .job .title {
     text-align: center;
+  }
+  footer h1 {
+    font-size: 22px;
+  }
+  footer form span {
+    margin-bottom: 10px;
+  }
+  footer form .white-input,
+  footer form .red-button {
+    display: block;
+    margin: 0 auto;
+    width: 260px;
+  }
+  footer .contacts span {
+    display: block;
+    margin: 7px auto;
   }
 }
 @media (max-width: 767px) and (max-width: 400px) {
