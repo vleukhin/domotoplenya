@@ -264,6 +264,32 @@ header .contacts .phone {
   color: #b81e1e;
   margin-bottom: 7px;
 }
+#choise > div {
+  width: 100%;
+  background-color: #fedb49;
+  max-width: 660px;
+  padding: 35px;
+  margin: 0 auto;
+}
+#choise > div .left-number {
+  text-align: center;
+  font-size: 18px;
+  margin: 25px 0;
+}
+#choise > div .base-input {
+  display: block;
+  margin: 0 auto;
+  width: 44.06779661%;
+  min-width: 240px;
+}
+#choise > div .call {
+  margin-top: 25px;
+  font-size: 14px;
+  text-align: center;
+}
+#choise > div .call span {
+  font-size: 18px;
+}
 h1 {
   font-size: 36px;
   text-align: center;
@@ -315,6 +341,7 @@ h1 {
 .white-input {
   color: #b4b4b4;
   padding: 22px;
+  text-align: center;
 }
 .red-button {
   background-color: #d71818;

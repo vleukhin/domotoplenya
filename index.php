@@ -301,6 +301,23 @@
 			</div>
 		</div>
 	</div>
+	<div id="choise">
+		<div>
+			<h1>
+				Наши специалисты помогут Вам выбрать
+				отопительную систему
+			</h1>
+			<div class="left-number">Оставьте свой номер и мы перезвоним вам в ближайшее время</div>
+			<form action="#">
+				<input class="base-input white-input" type="text" placeholder="Введите свой номер">
+				<input class="base-input red-button" type="submit" value="Заказать звонок">
+			</form>
+			<div class="call">
+				Или звоните на бесплатный номер <br>
+				<span>8 800 775 85 94</span>
+			</div>
+		</div>
+	</div>
 </div>
 </body>
 </html>

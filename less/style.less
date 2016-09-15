@@ -331,6 +331,41 @@ header {
 	}
 }
 
+#choise{
+	> div{
+		@width: 660px;
+		@padding: 35px;
+
+		width: 100%;
+		background-color: @color-yellow;
+		max-width: @width;
+		padding: @padding;
+		margin: 0 auto;
+
+		.left-number {
+			text-align: center;
+			font-size: 18px;
+			margin: 25px 0;
+		}
+
+		.base-input {
+			display: block;
+			margin: 0 auto;
+			width: percentage(260px/(@width - @padding * 2));
+			min-width: 240px;
+		}
+
+		.call {
+			margin-top: 25px;
+			font-size: 14px;
+			text-align: center;
+			span {
+				font-size: 18px;
+			}
+		}
+	}
+}
+
 h1 {
 	font-size: 36px;
 	text-align: center;
@@ -392,6 +427,7 @@ h1 {
 .white-input {
 	color: #b4b4b4;
 	padding: 22px;
+	text-align: center;
 }
 
 .red-button {
