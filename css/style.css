@@ -214,20 +214,6 @@ header .contacts .phone {
   border-bottom: 1px solid #5d5d5d;
   padding: 22px 8.33333333%;
 }
-#brands h1 {
-  font-size: 36px;
-  text-align: center;
-  font-weight: bold;
-}
-#brands .desc {
-  font-size: 18px;
-  text-align: center;
-  color: #5c5c5c;
-}
-#brands .desc span {
-  font-size: 22px;
-  font-weight: bold;
-}
 #brands .brand {
   border: 1px solid #b81e1e;
   width: 100%;
@@ -247,6 +233,51 @@ header .contacts .phone {
 #brands .brand a {
   color: #b81e1e;
   text-decoration: underline;
+}
+#types {
+  padding: 22px 8.33333333%;
+}
+#types .type {
+  margin-bottom: 30px;
+}
+#types .type .title {
+  position: relative;
+  margin-bottom: 10px	;
+}
+#types .type .title img {
+  display: block;
+  width: 100%;
+}
+#types .type .title .name {
+  font-size: 24px;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.75);
+  position: absolute;
+  bottom: 0;
+  padding: 13px;
+}
+#types .type .descr {
+  font-size: 16px;
+  line-height: 30px;
+}
+#types .type .descr .advantages {
+  color: #b81e1e;
+  margin-bottom: 7px;
+}
+h1 {
+  font-size: 36px;
+  text-align: center;
+  font-weight: bold;
+}
+.desc {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #5c5c5c;
+}
+.desc span {
+  font-size: 22px;
+  font-weight: bold;
 }
 .icon {
   display: inline-block;
