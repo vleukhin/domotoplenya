@@ -400,6 +400,69 @@
 					</div>
 				</div>
 			</li>
+			<li>
+				<div class="job">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-xs-12 col-sm-7">
+								<img src="images/portfolio/3/1.jpg" alt="" class="main">
+							</div>
+							<div class="col-xs-12 col-sm-5">
+								<div class="title">
+									Тула
+								</div>
+								<div class="descr">
+									котел: <span>Buderus Германия</span><br>
+									бойлер: <span>Buderus Германия</span><br>
+									радиаторы: <span>Elsen Чехия</span><br>
+									внутрипольные конвектора: <span>Elsen</span><br>
+									оборудование котельной: <span>Buderus, KME Германия</span><br>
+									система: <span>лучевая</span><br>
+									способ прокладки: <span>скрытый</span><br>
+									трубопровод: <span>сшитый полиэтилен – Rehau Германия</span><br>
+									теплый пол: <span>сшитый полиэтилен – Rehau Германия</span><br>
+								</div>
+								<div class="images">
+									<img src="images/portfolio/3/1.jpg" alt="" class="thumb active">
+									<img src="images/portfolio/3/2.jpg" alt="" class="thumb">
+									<img src="images/portfolio/3/3.jpg" alt="" class="thumb">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="job">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-xs-12 col-sm-7">
+								<img src="images/portfolio/3/1.jpg" alt="" class="main">
+							</div>
+							<div class="col-xs-12 col-sm-5">
+								<div class="title">
+									Москва, <br>КП Сосновый бор
+								</div>
+								<div class="descr">
+									котел: <span>Vaillant Германия</span><br>
+									бойлер: <span>ACV Бельгия</span><br>
+									радиаторы: <span>Elsen Чехия</span><br>
+									оборудование котельной: <span>Meibes, KME Германия</span><br>
+									система: <span>лучевая</span><br>
+									способ прокладки: <span>скрытый</span><br>
+									трубопровод: <span>сшитый полиэтилен – Giacomini , Италия</span><br>
+									теплый пол: <span>сшитый полиэтилен – Giacomini , Италия</span><br>
+								</div>
+								<div class="images">
+									<img src="images/portfolio/4/1.jpg" alt="" class="thumb active">
+									<img src="images/portfolio/4/2.jpg" alt="" class="thumb">
+									<img src="images/portfolio/4/3.jpg" alt="" class="thumb">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
 		</ul>
 
 	</div>
