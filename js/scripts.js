@@ -40,6 +40,7 @@
 			}
 		});
 
-		$('#portfolio ').find('ul').bxSlider();
+		$('#portfolio').find('ul').bxSlider();
+		$('#brands').find('ul').bxSlider();
 	});
 })(window.jQuery);

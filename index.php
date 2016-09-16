@@ -13,7 +13,7 @@
 	<!-- bxSlider Javascript file -->
 	<script src="js/bxslider/jquery.bxslider.js"></script>
 	<!-- bxSlider CSS file -->
-	<link href="js/bxslider/jquery.bxslider.css" rel="stylesheet" />
+	<link href="js/bxslider/jquery.bxslider.css" rel="stylesheet"/>
 
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css"/>
@@ -164,67 +164,144 @@
 		</div>
 		<div class="container-fluid slideshow">
 			<div class="row">
-				<div class="col-xs-12 col-sm-6 col-md-4">
-					<div class="brand">
-						<img src="images/brands/vaillant.png" alt="" class="logo">
-						<div class="descr">
-							Vaillant - поставщик надежных высокоэффективных системных решений для отопления и горячего
-							водоснабжения дома, квартиры, дачи, коттеджа.
+				<ul>
+					<li>
+						<div class="col-xs-12 col-sm-6 col-md-4">
+							<div class="brand">
+								<img src="images/brands/vaillant.png" alt="" class="logo">
+								<div class="descr">
+									Vaillant - поставщик надежных высокоэффективных системных решений для отопления и
+									горячего
+									водоснабжения дома, квартиры, дачи, коттеджа.
+								</div>
+								<a href="#">Наш аттестат от Vaillant</a>
+							</div>
 						</div>
-						<a href="#">Наш аттестат от Vaillant</a>
-					</div>
-				</div>
-				<div class="col-xs-12 col-sm-6 col-md-4">
-					<div class="brand">
-						<img src="images/brands/vaillant.png" alt="" class="logo">
-						<div class="descr">
-							Vaillant - поставщик надежных высокоэффективных системных решений для отопления и горячего
-							водоснабжения дома, квартиры, дачи, коттеджа.
+						<div class="col-xs-12 col-sm-6 col-md-4">
+							<div class="brand">
+								<img src="images/brands/vaillant.png" alt="" class="logo">
+								<div class="descr">
+									Vaillant - поставщик надежных высокоэффективных системных решений для отопления и
+									горячего
+									водоснабжения дома, квартиры, дачи, коттеджа.
+								</div>
+								<a href="#">Наш аттестат от Vaillant</a>
+							</div>
 						</div>
-						<a href="#">Наш аттестат от Vaillant</a>
-					</div>
-				</div>
-				<div class="col-xs-12 col-sm-6 col-md-4">
-					<div class="brand">
-						<img src="images/brands/vaillant.png" alt="" class="logo">
-						<div class="descr">
-							Vaillant - поставщик надежных высокоэффективных системных решений для отопления и горячего
-							водоснабжения дома, квартиры, дачи, коттеджа.
+						<div class="col-xs-12 col-sm-6 col-md-4">
+							<div class="brand">
+								<img src="images/brands/vaillant.png" alt="" class="logo">
+								<div class="descr">
+									Vaillant - поставщик надежных высокоэффективных системных решений для отопления и
+									горячего
+									водоснабжения дома, квартиры, дачи, коттеджа.
+								</div>
+								<a href="#">Наш аттестат от Vaillant</a>
+							</div>
 						</div>
-						<a href="#">Наш аттестат от Vaillant</a>
-					</div>
-				</div>
-				<div class="col-xs-12 col-sm-6 col-md-4">
-					<div class="brand">
-						<img src="images/brands/vaillant.png" alt="" class="logo">
-						<div class="descr">
-							Vaillant - поставщик надежных высокоэффективных системных решений для отопления и горячего
-							водоснабжения дома, квартиры, дачи, коттеджа.
+						<div class="col-xs-12 col-sm-6 col-md-4">
+							<div class="brand">
+								<img src="images/brands/vaillant.png" alt="" class="logo">
+								<div class="descr">
+									Vaillant - поставщик надежных высокоэффективных системных решений для отопления и
+									горячего
+									водоснабжения дома, квартиры, дачи, коттеджа.
+								</div>
+								<a href="#">Наш аттестат от Vaillant</a>
+							</div>
 						</div>
-						<a href="#">Наш аттестат от Vaillant</a>
-					</div>
-				</div>
-				<div class="col-xs-12 col-sm-6 col-md-4">
-					<div class="brand">
-						<img src="images/brands/vaillant.png" alt="" class="logo">
-						<div class="descr">
-							Vaillant - поставщик надежных высокоэффективных системных решений для отопления и горячего
-							водоснабжения дома, квартиры, дачи, коттеджа.
+						<div class="col-xs-12 col-sm-6 col-md-4">
+							<div class="brand">
+								<img src="images/brands/vaillant.png" alt="" class="logo">
+								<div class="descr">
+									Vaillant - поставщик надежных высокоэффективных системных решений для отопления и
+									горячего
+									водоснабжения дома, квартиры, дачи, коттеджа.
+								</div>
+								<a href="#">Наш аттестат от Vaillant</a>
+							</div>
 						</div>
-						<a href="#">Наш аттестат от Vaillant</a>
-					</div>
-				</div>
-				<div class="col-xs-12 col-sm-6 col-md-4">
-					<div class="brand">
-						<img src="images/brands/vaillant.png" alt="" class="logo">
-						<div class="descr">
-							Vaillant - поставщик надежных высокоэффективных системных решений для отопления и горячего
-							водоснабжения дома, квартиры, дачи, коттеджа.
+						<div class="col-xs-12 col-sm-6 col-md-4">
+							<div class="brand">
+								<img src="images/brands/vaillant.png" alt="" class="logo">
+								<div class="descr">
+									Vaillant - поставщик надежных высокоэффективных системных решений для отопления и
+									горячего
+									водоснабжения дома, квартиры, дачи, коттеджа.
+								</div>
+								<a href="#">Наш аттестат от Vaillant</a>
+							</div>
 						</div>
-						<a href="#">Наш аттестат от Vaillant</a>
-					</div>
-				</div>
-
+					</li>
+					<li>
+						<div class="col-xs-12 col-sm-6 col-md-4">
+							<div class="brand">
+								<img src="images/brands/vaillant.png" alt="" class="logo">
+								<div class="descr">
+									Vaillant - поставщик надежных высокоэффективных системных решений для отопления и
+									горячего
+									водоснабжения дома, квартиры, дачи, коттеджа.
+								</div>
+								<a href="#">Наш аттестат от Vaillant</a>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-4">
+							<div class="brand">
+								<img src="images/brands/vaillant.png" alt="" class="logo">
+								<div class="descr">
+									Vaillant - поставщик надежных высокоэффективных системных решений для отопления и
+									горячего
+									водоснабжения дома, квартиры, дачи, коттеджа.
+								</div>
+								<a href="#">Наш аттестат от Vaillant</a>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-4">
+							<div class="brand">
+								<img src="images/brands/vaillant.png" alt="" class="logo">
+								<div class="descr">
+									Vaillant - поставщик надежных высокоэффективных системных решений для отопления и
+									горячего
+									водоснабжения дома, квартиры, дачи, коттеджа.
+								</div>
+								<a href="#">Наш аттестат от Vaillant</a>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-4">
+							<div class="brand">
+								<img src="images/brands/vaillant.png" alt="" class="logo">
+								<div class="descr">
+									Vaillant - поставщик надежных высокоэффективных системных решений для отопления и
+									горячего
+									водоснабжения дома, квартиры, дачи, коттеджа.
+								</div>
+								<a href="#">Наш аттестат от Vaillant</a>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-4">
+							<div class="brand">
+								<img src="images/brands/vaillant.png" alt="" class="logo">
+								<div class="descr">
+									Vaillant - поставщик надежных высокоэффективных системных решений для отопления и
+									горячего
+									водоснабжения дома, квартиры, дачи, коттеджа.
+								</div>
+								<a href="#">Наш аттестат от Vaillant</a>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-4">
+							<div class="brand">
+								<img src="images/brands/vaillant.png" alt="" class="logo">
+								<div class="descr">
+									Vaillant - поставщик надежных высокоэффективных системных решений для отопления и
+									горячего
+									водоснабжения дома, квартиры, дачи, коттеджа.
+								</div>
+								<a href="#">Наш аттестат от Vaillant</a>
+							</div>
+						</div>
+					</li>
+				</ul>
 			</div>
 		</div>
 	</div>
