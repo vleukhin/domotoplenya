@@ -29,5 +29,15 @@
 
 			}
 		});
+
+		$('.images img').click(function(){
+			var $this = $(this);
+
+			if(!$this.hasClass('active')){
+				$this.closest('.images').find('.active').removeClass('active');
+				$this.addClass('active');
+				$this.closest('.job').find('img.main').attr('src', $this.attr('src'));
+			}
+		})
 	});
 })(window.jQuery);

@@ -31,7 +31,7 @@
 				<div class="col-sm-4 col-xs-12 contacts">
 					<div>Москва <span class="phone">8 495 255 44 50</span></div>
 					<div>Тула <span class="phone">8 495 255 44 50</span></div>
-					<div>Почта для заявок <span class="phone">info@hotklimat.ru</span></div>
+					<div>Почта для заявок <span class="phone"><a href="mailto:info@hotklimat.ru">info@hotklimat.ru</a></span></div>
 				</div>
 			</div>
 		</div>
@@ -334,26 +334,27 @@
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-xs-12 col-sm-7">
-						<img src="images/portfolio/1/1.png" alt="" class="main">
+						<img src="images/portfolio/1/1.jpg" alt="" class="main">
 					</div>
 					<div class="col-xs-12 col-sm-5">
 						<div class="title">
-							Тульская обл., Ленинский р-н,<br>
-							п. Октябрьский,<br>
-							СНТ Богучарово парк<br>
+							Московская область, <br>Раменский р-н,<br> п. Сельцо
 						</div>
 						<div class="descr">
-							котел: <span>Vaillant</span> <br>
-							бойлер: <span>Vaillant</span> <br>
-							радиаторы: <span>стальная панель Dia Norm</span> <br>
-							система: <span>двухтрубная с нижней дводкой к  радиаторам</span> <br>
-							способ прокладки: <span>скрытый</span> <br>
-							материал труб: <span>полипропилен Kalde</span> (Турция) <br>
-							теплый пол: <span>сшитый полиэтилен KAN-therm (Польша)</span> <br>
+							котел: <span>Buderus Германия</span><br>
+							бойлер: <span>Reflex Германия</span><br>
+							радиаторы: <span>Zehnder Германия</span><br>
+							внутрипольные конвектора: <span>Elsen</span><br>
+							оборудование котельной: <span>Meibes, KME Германия</span><br>
+							система: <span>лучевая</span><br>
+							способ прокладки: <span>скрытый</span><br>
+							трубопровод: <span>сшитый полиэтилен – Elsen Швеция</span><br>
+							теплый пол: <span>сшитый полиэтилен – Rehau Германия</span><br>
 						</div>
 						<div class="images">
-							<a href="#"><img src="images/portfolio/1/1.png" alt="" class="thumb active"></a>
-							<a href="#"><img src="images/portfolio/1/1.png" alt="" class="thumb"></a>
+							<img src="images/portfolio/1/1.jpg" alt="" class="thumb active">
+							<img src="images/portfolio/1/2.jpg" alt="" class="thumb">
+							<img src="images/portfolio/1/3.jpg" alt="" class="thumb">
 						</div>
 					</div>
 				</div>
@@ -419,7 +420,7 @@
 		</div>
 		<div class="contacts">
 			<div>Или звоните на бесплатный номер  <span>8 800 775 85 94</span></div>
-			<div>Мы ответим на все заявки, которые Вы пришлете на почту <span>info@hotklimat.ru</span></div>
+			<div>Мы ответим на все заявки, которые Вы пришлете на почту <span><a href="mailto:info@hotklimat.ru">info@hotklimat.ru</a></span></div>
 		</div>
 	</footer>
 </div>

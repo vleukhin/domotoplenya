@@ -321,6 +321,7 @@ header .contacts .phone {
   max-width: 140px;
   width: 45.75163399%;
   margin: 5px;
+  cursor: pointer;
 }
 #portfolio .job img.thumb.active {
   border: 4px solid #5c5c5c;
