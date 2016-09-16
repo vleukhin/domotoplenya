@@ -38,6 +38,8 @@
 				$this.addClass('active');
 				$this.closest('.job').find('img.main').attr('src', $this.attr('src'));
 			}
-		})
+		});
+
+		$('#portfolio ').find('ul').bxSlider();
 	});
 })(window.jQuery);

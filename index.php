@@ -10,6 +10,11 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+	<!-- bxSlider Javascript file -->
+	<script src="js/bxslider/jquery.bxslider.js"></script>
+	<!-- bxSlider CSS file -->
+	<link href="js/bxslider/jquery.bxslider.css" rel="stylesheet" />
+
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css"/>
 	<link rel="stylesheet" type="text/css" href="css/style.css"/>
@@ -31,7 +36,8 @@
 				<div class="col-sm-4 col-xs-12 contacts">
 					<div>Москва <span class="phone">8 495 255 44 50</span></div>
 					<div>Тула <span class="phone">8 495 255 44 50</span></div>
-					<div>Почта для заявок <span class="phone"><a href="mailto:info@hotklimat.ru">info@hotklimat.ru</a></span></div>
+					<div>Почта для заявок <span class="phone"><a
+								href="mailto:info@hotklimat.ru">info@hotklimat.ru</a></span></div>
 				</div>
 			</div>
 		</div>
@@ -330,36 +336,72 @@
 
 	<div id="portfolio">
 		<h1>Наши работы</h1>
-		<div class="job">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-xs-12 col-sm-7">
-						<img src="images/portfolio/1/1.jpg" alt="" class="main">
-					</div>
-					<div class="col-xs-12 col-sm-5">
-						<div class="title">
-							Московская область, <br>Раменский р-н,<br> п. Сельцо
-						</div>
-						<div class="descr">
-							котел: <span>Buderus Германия</span><br>
-							бойлер: <span>Reflex Германия</span><br>
-							радиаторы: <span>Zehnder Германия</span><br>
-							внутрипольные конвектора: <span>Elsen</span><br>
-							оборудование котельной: <span>Meibes, KME Германия</span><br>
-							система: <span>лучевая</span><br>
-							способ прокладки: <span>скрытый</span><br>
-							трубопровод: <span>сшитый полиэтилен – Elsen Швеция</span><br>
-							теплый пол: <span>сшитый полиэтилен – Rehau Германия</span><br>
-						</div>
-						<div class="images">
-							<img src="images/portfolio/1/1.jpg" alt="" class="thumb active">
-							<img src="images/portfolio/1/2.jpg" alt="" class="thumb">
-							<img src="images/portfolio/1/3.jpg" alt="" class="thumb">
+		<ul>
+			<li>
+				<div class="job">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-xs-12 col-sm-7">
+								<img src="images/portfolio/1/1.jpg" alt="" class="main">
+							</div>
+							<div class="col-xs-12 col-sm-5">
+								<div class="title">
+									Московская область, <br>Раменский р-н,<br> п. Сельцо
+								</div>
+								<div class="descr">
+									котел: <span>Buderus Германия</span><br>
+									бойлер: <span>Reflex Германия</span><br>
+									радиаторы: <span>Zehnder Германия</span><br>
+									внутрипольные конвектора: <span>Elsen</span><br>
+									система: <span>двухтрубная</span><br>
+									способ прокладки: <span>скрытый</span><br>
+									трубопровод: <span>сшитый полиэтилен – Elsen Чехия</span><br>
+									теплый пол: <span>сшитый полиэтилен – Elsen Чехия</span><br>
+								</div>
+								<div class="images">
+									<img src="images/portfolio/1/1.jpg" alt="" class="thumb active">
+									<img src="images/portfolio/1/2.jpg" alt="" class="thumb">
+									<img src="images/portfolio/1/3.jpg" alt="" class="thumb">
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-		</div>
+			</li>
+			<li>
+				<div class="job">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-xs-12 col-sm-7">
+								<img src="images/portfolio/2/1.jpg" alt="" class="main">
+							</div>
+							<div class="col-xs-12 col-sm-5">
+								<div class="title">
+									Московская область, <br>Домодедовский городской округ,<br> КП Фламандия
+								</div>
+								<div class="descr">
+									котел: <span>Baxi Италия</span><br>
+									бойлер: <span>ACV Бельгия</span><br>
+									радиаторы: <span>Elsen Чехия</span><br>
+									внутрипольные конвектора: <span>Elsen</span><br>
+									оборудование котельной: <span>Meibes, KME Германия</span><br>
+									система: <span>лучевая</span><br>
+									способ прокладки: <span>скрытый</span><br>
+									трубопровод: <span>сшитый полиэтилен – Elsen Швеция</span><br>
+									теплый пол: <span>сшитый полиэтилен – Rehau Германия</span><br>
+								</div>
+								<div class="images">
+									<img src="images/portfolio/2/1.jpg" alt="" class="thumb active">
+									<img src="images/portfolio/2/2.jpg" alt="" class="thumb">
+									<img src="images/portfolio/2/3.jpg" alt="" class="thumb">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+		</ul>
+
 	</div>
 
 	<div id="reviews">
@@ -419,8 +461,9 @@
 			</form>
 		</div>
 		<div class="contacts">
-			<div>Или звоните на бесплатный номер  <span>8 800 775 85 94</span></div>
-			<div>Мы ответим на все заявки, которые Вы пришлете на почту <span><a href="mailto:info@hotklimat.ru">info@hotklimat.ru</a></span></div>
+			<div>Или звоните на бесплатный номер <span>8 800 775 85 94</span></div>
+			<div>Мы ответим на все заявки, которые Вы пришлете на почту <span><a href="mailto:info@hotklimat.ru">info@hotklimat.ru</a></span>
+			</div>
 		</div>
 	</footer>
 </div>

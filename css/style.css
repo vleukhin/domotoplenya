@@ -303,13 +303,14 @@ header .contacts .phone {
 #portfolio {
   border-top: 1px solid #b81e1e;
   border-bottom: 1px solid #b81e1e;
-  padding-bottom: 50px;
+}
+#portfolio ul {
+  list-style: none;
 }
 #portfolio .job {
   padding: 20px;
   max-width: 850px;
   margin: 0 auto;
-  border: 1px solid black;
 }
 #portfolio .job img.main {
   display: block;
@@ -322,6 +323,7 @@ header .contacts .phone {
   width: 45.75163399%;
   margin: 5px;
   cursor: pointer;
+  display: inline;
 }
 #portfolio .job img.thumb.active {
   border: 4px solid #5c5c5c;
@@ -462,6 +464,28 @@ h1 {
   height: 65px;
   display: inline-block;
 }
+.bx-wrapper .bx-viewport {
+  border: none;
+  box-shadow: none;
+}
+.bx-wrapper .bx-controls-direction a {
+  width: 29px;
+  height: 57px;
+}
+.bx-wrapper .bx-prev {
+  background: url(../images/arrow-left.png) no-repeat 0 0;
+  background-size: cover;
+}
+.bx-wrapper .bx-next {
+  background: url(../images/arrow-right.png) no-repeat 0 0;
+  background-size: cover;
+}
+.bx-wrapper .bx-next:hover {
+  background-position: 0 0;
+}
+.bx-wrapper .bx-pager {
+  display: none;
+}
 @import-once "vars";
 @media (max-width: 767px) {
   header .row > div {
@@ -559,6 +583,10 @@ h1 {
     margin: 5px auto;
     display: block;
   }
+  .bx-wrapper .bx-controls-direction a {
+    width: 16px;
+    height: 30px;
+  }
 }
 @media (max-width: 991px) {
   #services .form .info .red-button {
@@ -578,5 +606,9 @@ h1 {
   #flow .form .dialog p {
     font-size: 22px;
     padding-left: 12px;
+  }
+  .bx-wrapper .bx-controls-direction a {
+    width: 17px;
+    height: 35px;
   }
 }
