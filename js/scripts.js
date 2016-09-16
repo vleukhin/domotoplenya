@@ -42,5 +42,16 @@
 
 		$('#portfolio').find('ul').bxSlider();
 		$('#brands').find('ul').bxSlider();
+
+		$("input[name=phone]").mask('8 (000) 000-00-00', {placeholder: "Введите свой номер"});
+
+		$('form').submit(function(){
+			var $this = $(this);
+
+			if ($this.find('input[name=phone]').val().length < 17){
+				alert('Пожалуйста, проверьте правильно ли введен телефон');
+				return false;
+			}
+		});
 	});
 })(window.jQuery);

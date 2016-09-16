@@ -1,3 +1,12 @@
+<?php
+$popup = false;
+
+if (isset($_POST['phone'])) {
+	mail('norad-2013@mail.ru', 'Вас просят перезвонить с лендинга Домотопления', "Клиент оставил телефон: ({$_POST['phone']}).");
+	$popup = true;
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +16,7 @@
 	<script src="js/jquery-3.1.0.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/scripts.js"></script>
+	<script src="js/jquery.mask.js"></script>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -86,8 +96,8 @@
 						Звоните на бесплатный номер<br>
 						<span>8 800 775 85 94</span><br><br>
 						Или мы позвоним Вам сами <br><br>
-						<form action="#">
-							<input class="base-input white-input" type="text" placeholder="Введите свой номер">
+						<form method="POST">
+							<input class="base-input white-input" type="text" name="phone">
 							<input class="base-input red-button" type="submit" value="Заказать звонок">
 						</form>
 					</div>
@@ -142,8 +152,8 @@
 							<p>— С консультации!</p>
 						</div>
 						<div class="left-number">Оставьте свой номер и мы перезвоним вам в ближайшее время</div>
-						<form action="#">
-							<input class="base-input white-input" type="text" placeholder="Введите свой номер">
+						<form method="POST">
+							<input class="base-input white-input" type="text" name="phone">
 							<input class="base-input red-button" type="submit" value="Заказать звонок">
 						</form>
 						<div class="call">
@@ -400,8 +410,8 @@
 				отопительную систему
 			</h1>
 			<div class="left-number">Оставьте свой номер и мы перезвоним вам в ближайшее время</div>
-			<form action="#">
-				<input class="base-input white-input" type="text" placeholder="Введите свой номер">
+			<form method="POST">
+				<input class="base-input white-input" type="text" name="phone">
 				<input class="base-input red-button" type="submit" value="Заказать звонок">
 			</form>
 			<div class="call">
@@ -594,9 +604,9 @@
 		<h1>Задайте вопрос нашему консультанту и получите <br>квалифицированный ответ.</h1>
 		<div class="no-money">Мы не берем денег за консультацию.</div>
 		<div>
-			<form action="#">
+			<form method="POST">
 				<span>Закажите звонок</span>
-				<input class="base-input white-input" type="text" placeholder="Введите свой номер">
+				<input class="base-input white-input" type="text" name="phone">
 				<input class="base-input red-button" type="submit" value="Заказать звонок">
 			</form>
 		</div>
@@ -607,5 +617,25 @@
 		</div>
 	</footer>
 </div>
+<!-- Modal -->
+<div class="modal fade" id="popup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			<div class="clearfix"></div>
+			<h1>Ваш запрос принят!</h1>
+			<p>Мы обязательно свяжемся с Вами.</p>
+		</div>
+	</div>
+</div>
+<?php if ($popup): ?>
+	<script>
+		(function ($) {
+			$(document).ready(function () {
+				$('#popup').modal();
+			});
+		})(window.jQuery);
+	</script>
+<?php endif;?>
 </body>
 </html>
