@@ -6,6 +6,7 @@
 
 	<script src="js/jquery-3.1.0.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/scripts.js"></script>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -39,11 +40,11 @@
 	<div id="menu">
 		<nav>
 			<ul>
-				<li><a href="#">О компании</a></li>
-				<li><a href="#">Наши бренды</a></li>
-				<li><a href="#">Выбор отопления</a></li>
-				<li><a href="#">Наши работы</a></li>
-				<li><a href="#">Отзывы</a></li>
+				<li><a href="#flow">О компании</a></li>
+				<li><a href="#brands">Наши бренды</a></li>
+				<li><a href="#types">Выбор отопления</a></li>
+				<li><a href="#portfolio">Наши работы</a></li>
+				<li><a href="#reviews">Отзывы</a></li>
 			</ul>
 		</nav>
 	</div>
