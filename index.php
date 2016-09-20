@@ -282,6 +282,7 @@ if (isset($_POST['phone'])) {
 		</div>
 	</div>
 
+	<h1>Наши сертефикаты</h1>
 	<div class="certificate">
 		<div class="certificate__wrapper">
 			<div class="certificate__longblock">
