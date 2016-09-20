@@ -423,7 +423,7 @@
 							<div class="col-xs-12 col-sm-6 col-md-7">
 								<img src="images/portfolio/1/1.jpg" alt="" class="main">
 							</div>
-							<div class="col-xs-12 col-sm-6 col-md-5">
+							<div class="col-xs-12 col-sm-6 col-md-5 about">
 								<div class="title">
 									Московская область, <br>Раменский р-н,<br> п. Сельцо
 								</div>
@@ -454,7 +454,7 @@
 							<div class="col-xs-12 col-sm-6 col-md-7">
 								<img src="images/portfolio/2/1.jpg" alt="" class="main">
 							</div>
-							<div class="col-xs-12 col-sm-6 col-md-5">
+							<div class="col-xs-12 col-sm-6 col-md-5 about">
 								<div class="title">
 									Московская область, <br>Домодедовский городской округ,<br> КП Фламандия
 								</div>
@@ -486,7 +486,7 @@
 							<div class="col-xs-12 col-sm-6 col-md-7">
 								<img src="images/portfolio/3/1.jpg" alt="" class="main">
 							</div>
-							<div class="col-xs-12 col-sm-6 col-md-5">
+							<div class="col-xs-12 col-sm-6 col-md-5 about">
 								<div class="title">
 									Тула
 								</div>
@@ -519,7 +519,7 @@
 							<div class="col-xs-12 col-sm-6 col-md-7">
 								<img src="images/portfolio/3/1.jpg" alt="" class="main">
 							</div>
-							<div class="col-xs-12 col-sm-6 col-md-5">
+							<div class="col-xs-12 col-sm-6 col-md-5 about">
 								<div class="title">
 									Москва, <br>КП Сосновый бор
 								</div>
