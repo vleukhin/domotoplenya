@@ -404,10 +404,10 @@ if (isset($_POST['phone'])) {
 				<div class="job">
 					<div class="container-fluid">
 						<div class="row">
-							<div class="col-xs-12 col-sm-7">
+							<div class="col-xs-12 col-sm-6 col-md-7">
 								<img src="images/portfolio/1/1.jpg" alt="" class="main">
 							</div>
-							<div class="col-xs-12 col-sm-5">
+							<div class="col-xs-12 col-sm-6 col-md-5">
 								<div class="title">
 									Московская область, <br>Раменский р-н,<br> п. Сельцо
 								</div>
@@ -435,10 +435,10 @@ if (isset($_POST['phone'])) {
 				<div class="job">
 					<div class="container-fluid">
 						<div class="row">
-							<div class="col-xs-12 col-sm-7">
+							<div class="col-xs-12 col-sm-6 col-md-7">
 								<img src="images/portfolio/2/1.jpg" alt="" class="main">
 							</div>
-							<div class="col-xs-12 col-sm-5">
+							<div class="col-xs-12 col-sm-6 col-md-5">
 								<div class="title">
 									Московская область, <br>Домодедовский городской округ,<br> КП Фламандия
 								</div>
@@ -467,10 +467,10 @@ if (isset($_POST['phone'])) {
 				<div class="job">
 					<div class="container-fluid">
 						<div class="row">
-							<div class="col-xs-12 col-sm-7">
+							<div class="col-xs-12 col-sm-6 col-md-7">
 								<img src="images/portfolio/3/1.jpg" alt="" class="main">
 							</div>
-							<div class="col-xs-12 col-sm-5">
+							<div class="col-xs-12 col-sm-6 col-md-5">
 								<div class="title">
 									Тула
 								</div>
@@ -489,6 +489,7 @@ if (isset($_POST['phone'])) {
 									<img src="images/portfolio/3/1.jpg" alt="" class="thumb active">
 									<img src="images/portfolio/3/2.jpg" alt="" class="thumb">
 									<img src="images/portfolio/3/3.jpg" alt="" class="thumb">
+									<img src="images/portfolio/3/4.jpg" alt="" class="thumb">
 								</div>
 							</div>
 						</div>
@@ -499,10 +500,10 @@ if (isset($_POST['phone'])) {
 				<div class="job">
 					<div class="container-fluid">
 						<div class="row">
-							<div class="col-xs-12 col-sm-7">
+							<div class="col-xs-12 col-sm-6 col-md-7">
 								<img src="images/portfolio/3/1.jpg" alt="" class="main">
 							</div>
-							<div class="col-xs-12 col-sm-5">
+							<div class="col-xs-12 col-sm-6 col-md-5">
 								<div class="title">
 									Москва, <br>КП Сосновый бор
 								</div>
@@ -519,7 +520,6 @@ if (isset($_POST['phone'])) {
 								<div class="images">
 									<img src="images/portfolio/4/1.jpg" alt="" class="thumb active">
 									<img src="images/portfolio/4/2.jpg" alt="" class="thumb">
-									<img src="images/portfolio/4/3.jpg" alt="" class="thumb">
 								</div>
 							</div>
 						</div>

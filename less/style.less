@@ -402,24 +402,21 @@ header {
 		padding: 20px;
 		max-width: 850px;
 		margin: 0 auto;
-		//border: 1px solid black;
 
 		img{
 			&.main{
 				display: block;
 				margin: 0 auto;
-				width: 100%;
-				max-width: 435px;
 			}
 			&.thumb{
-				max-width: 140px;
-				width: percentage(140px/306px);
-				margin: 5px;
+				max-height: 80px;
+				height: percentage(80px/306px);
+				margin: 3px;
 				cursor: pointer;
 				display: inline;
 
 				&.active{
-					border: 4px solid @color-gray;
+					border: 3px solid @color-gray;
 				}
 			}
 		}
