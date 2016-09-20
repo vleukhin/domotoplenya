@@ -178,136 +178,112 @@ if (isset($_POST['phone'])) {
 					<li>
 						<div class="col-xs-12 col-sm-6 col-md-4">
 							<div class="brand">
-								<img src="images/brands/vaillant.png" alt="" class="logo">
+								<img src="images/brands/1BAXI.JPG" alt="" class="logo">
 								<div class="descr">
-									Vaillant - поставщик надежных высокоэффективных системных решений для отопления и
-									горячего
-									водоснабжения дома, квартиры, дачи, коттеджа.
+									BAXI GROUP является одной из крупнейших и наиболее профессиональных компаний в области отопления и домашнего комфорта, занимая по количеству производимых отопительного оборудования 3-е место в Европе.
 								</div>
-								<a href="#">Наш аттестат от Vaillant</a>
+								<a href="#">Наш аттестат от BAXI GROUP</a>
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-6 col-md-4">
 							<div class="brand">
-								<img src="images/brands/vaillant.png" alt="" class="logo">
+								<img src="images/brands/2WATTEK.JPG" alt="" class="logo">
 								<div class="descr">
-									Vaillant - поставщик надежных высокоэффективных системных решений для отопления и
-									горячего
-									водоснабжения дома, квартиры, дачи, коттеджа.
+									WATTEK — передовой разработчик решений в области систем отопления зданий.
 								</div>
-								<a href="#">Наш аттестат от Vaillant</a>
+								<a href="#">Наш аттестат от WATTEK</a>
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-6 col-md-4">
 							<div class="brand">
-								<img src="images/brands/vaillant.png" alt="" class="logo">
+								<img src="images/brands/3DeDietrich.JPG" alt="" class="logo">
 								<div class="descr">
-									Vaillant - поставщик надежных высокоэффективных системных решений для отопления и
-									горячего
-									водоснабжения дома, квартиры, дачи, коттеджа.
+									De Dietrich производитель отопительной техники номер один во Франции. Приоритеты: экономия энергии и защита окружающей среды.
 								</div>
-								<a href="#">Наш аттестат от Vaillant</a>
+								<a href="#">Наш аттестат от De Dietrich</a>
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-6 col-md-4">
 							<div class="brand">
-								<img src="images/brands/vaillant.png" alt="" class="logo">
+								<img src="images/brands/4Buderus.JPG" alt="" class="logo">
 								<div class="descr">
-									Vaillant - поставщик надежных высокоэффективных системных решений для отопления и
-									горячего
-									водоснабжения дома, квартиры, дачи, коттеджа.
+									Buderus – это комплексный поставщик современной энергоэффективной отопительной техники и систем комфортного климата
 								</div>
-								<a href="#">Наш аттестат от Vaillant</a>
+								<a href="#">Наш аттестат от Buderus</a>
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-6 col-md-4">
 							<div class="brand">
-								<img src="images/brands/vaillant.png" alt="" class="logo">
+								<img src="images/brands/5Meibes.JPG" alt="" class="logo">
 								<div class="descr">
-									Vaillant - поставщик надежных высокоэффективных системных решений для отопления и
-									горячего
-									водоснабжения дома, квартиры, дачи, коттеджа.
+									Майбес - «Энергоэффективная техника. Компания применяет передовые достижения, бережно относится к природным ресурсам и использует альтернативные источники энергии.
 								</div>
-								<a href="#">Наш аттестат от Vaillant</a>
+								<a href="#">Наш аттестат от Meibes</a>
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-6 col-md-4">
 							<div class="brand">
-								<img src="images/brands/vaillant.png" alt="" class="logo">
+								<img src="images/brands/6Oventrop.JPG" alt="" class="logo">
 								<div class="descr">
-									Vaillant - поставщик надежных высокоэффективных системных решений для отопления и
-									горячего
-									водоснабжения дома, квартиры, дачи, коттеджа.
+									Oventrop является одним из ведущих производителей арматуры для инженерных коммуникаций
 								</div>
-								<a href="#">Наш аттестат от Vaillant</a>
+								<a href="#">Наш аттестат от Oventrop</a>
 							</div>
 						</div>
 					</li>
 					<li>
 						<div class="col-xs-12 col-sm-6 col-md-4">
 							<div class="brand">
-								<img src="images/brands/vaillant.png" alt="" class="logo">
+								<img src="images/brands/7Elsen.JPG" alt="" class="logo">
 								<div class="descr">
-									Vaillant - поставщик надежных высокоэффективных системных решений для отопления и
-									горячего
-									водоснабжения дома, квартиры, дачи, коттеджа.
+									ELSEN Systems представляет инновационные и высококачественные продукты для организации систем отопления и водоснабжения зданий.
 								</div>
-								<a href="#">Наш аттестат от Vaillant</a>
+								<a href="#">Наш аттестат от ELSEN Systems</a>
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-6 col-md-4">
 							<div class="brand">
-								<img src="images/brands/vaillant.png" alt="" class="logo">
+								<img src="images/brands/8Kermi.JPG" alt="" class="logo">
 								<div class="descr">
-									Vaillant - поставщик надежных высокоэффективных системных решений для отопления и
-									горячего
-									водоснабжения дома, квартиры, дачи, коттеджа.
+									Kermi - системы отопления и Dusch-Design на протяжении более 50 лет.
 								</div>
-								<a href="#">Наш аттестат от Vaillant</a>
+								<a href="#">Наш аттестат от Kermi</a>
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-6 col-md-4">
 							<div class="brand">
-								<img src="images/brands/vaillant.png" alt="" class="logo">
+								<img src="images/brands/9Rehau.JPG" alt="" class="logo">
 								<div class="descr">
-									Vaillant - поставщик надежных высокоэффективных системных решений для отопления и
-									горячего
-									водоснабжения дома, квартиры, дачи, коттеджа.
+									REHAU – безупречное немецкое качество, основанное на выдающихся инновациях и высокой надежности.
 								</div>
-								<a href="#">Наш аттестат от Vaillant</a>
+								<a href="#">Наш аттестат от REHAU</a>
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-6 col-md-4">
 							<div class="brand">
-								<img src="images/brands/vaillant.png" alt="" class="logo">
+								<img src="images/brands/10Giacomini.JPG" alt="" class="logo">
 								<div class="descr">
-									Vaillant - поставщик надежных высокоэффективных системных решений для отопления и
-									горячего
-									водоснабжения дома, квартиры, дачи, коттеджа.
+									Продукция GIACOMINI предназначена для систем, где основой и движущей силой является вода, которая приносит людям комфорт, здоровье и благополучие.
 								</div>
-								<a href="#">Наш аттестат от Vaillant</a>
+								<a href="#">Наш аттестат от GIACOMINI</a>
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-6 col-md-4">
 							<div class="brand">
-								<img src="images/brands/vaillant.png" alt="" class="logo">
+								<img src="images/brands/11ACV.JPG" alt="" class="logo">
 								<div class="descr">
-									Vaillant - поставщик надежных высокоэффективных системных решений для отопления и
-									горячего
-									водоснабжения дома, квартиры, дачи, коттеджа.
+									Компания ACV занимается разработкой, производством и продажей бытовых и промышленных систем обогрева и оборудования для горячего водоснабжения с 1922 года
 								</div>
-								<a href="#">Наш аттестат от Vaillant</a>
+								<a href="#">Наш аттестат от ACV</a>
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-6 col-md-4">
 							<div class="brand">
-								<img src="images/brands/vaillant.png" alt="" class="logo">
+								<img src="images/brands/12reflex.JPG" alt="" class="logo">
 								<div class="descr">
-									Vaillant - поставщик надежных высокоэффективных системных решений для отопления и
-									горячего
-									водоснабжения дома, квартиры, дачи, коттеджа.
+									Reflex Winkelmann GmbH - ведущий мировой поставщик решений, использующихся в системах тепло-и холодоснабжения зданий.
 								</div>
-								<a href="#">Наш аттестат от Vaillant</a>
+								<a href="#">Наш аттестат от Reflex Winkelmann GmbH</a>
 							</div>
 						</div>
 					</li>
