@@ -645,6 +645,9 @@ h1 {
     display: block;
     margin: 7px auto;
   }
+  .certificate__wrapper {
+    width: 100%;
+  }
 }
 @media (max-width: 767px) and (max-width: 400px) {
   #slogan {
