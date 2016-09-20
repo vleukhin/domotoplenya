@@ -1,26 +1,29 @@
 .certificate {
-  padding: 45px 45px 0 45px;
+  padding: 0 45px;
   margin-bottom: 40px;
   position: relative;
 }
+.certificate__title {
+  text-decoration: underline;
+  color: #b81e1e;
+  font-size: 12px;
+  text-align: left;
+  margin: 0 0 10px;
+}
 .certificate__wrapper {
-  width: 69.0990991%;
-  height: 225px;
+  width: 100%;
   margin: 0 auto;
   overflow: hidden;
   position: relative;
 }
 .certificate__longblock {
-  position: absolute;
-  left: 0;
-  width: 9999px;
+  text-align: center;
 }
 .certificate-item {
   display: inline-block;
   vertical-align: top;
   text-align: center;
   margin-right: 20px;
-  opacity: 0.3;
 }
 .certificate-item__image {
   display: block;
@@ -28,28 +31,11 @@
   margin-bottom: 21px;
 }
 .certificate-item__image img {
-  border: 1px solid #D7DBE0;
+  border: 10px solid rgba(215, 219, 224, 0.2);
   height: 152px;
 }
 .certificate-item__title {
   max-width: 180px;
-}
-.certificate__arrow {
-  position: absolute;
-  top: 101px;
-  width: 23px;
-  height: 44px;
-  cursor: pointer;
-}
-.certificate__arrow_left {
-  left: 10px;
-  background: url(../images/arrow-left.png) no-repeat 0 0;
-  background-size: cover;
-}
-.certificate__arrow_right {
-  right: 15px;
-  background: url(../images/arrow-right.png) no-repeat 0 0;
-  background-size: cover;
 }
 .certificate-item:hover {
   opacity: 1;
@@ -280,7 +266,6 @@ header .contacts .phone {
 }
 #brands {
   border-top: 1px solid #b81e1e;
-  border-bottom: 1px solid #5d5d5d;
   padding: 22px 3.33333333%;
 }
 #brands ul {
@@ -293,7 +278,7 @@ header .contacts .phone {
   max-width: 240px;
   padding: 22px;
   margin: 0 auto 30px;
-  min-height: 350px;
+  min-height: 290px;
 }
 #brands .brand .logo {
   display: block;
@@ -302,7 +287,6 @@ header .contacts .phone {
 #brands .brand .descr {
   font-size: 14px;
   color: #5c5c5c;
-  margin-bottom: 20px;
 }
 #brands .brand a {
   color: #b81e1e;
@@ -528,6 +512,9 @@ h1 {
   width: 59px;
   height: 65px;
   display: inline-block;
+}
+.bx-wrapper {
+  margin-bottom: 0;
 }
 .bx-wrapper .bx-viewport {
   border: none;

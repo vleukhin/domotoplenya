@@ -2,7 +2,6 @@
 $popup = false;
 
 if (isset($_POST['phone'])) {
-	mail('norad-2013@mail.ru', 'Вас просят перезвонить с лендинга Домотопления', "Клиент оставил телефон: ({$_POST['phone']}).");
 	mail('Nina.Rechistova@ya.ru', 'Вас просят перезвонить с лендинга Домотопления', "Клиент оставил телефон: ({$_POST['phone']}).");
 	$popup = true;
 }
@@ -283,16 +282,10 @@ if (isset($_POST['phone'])) {
 		</div>
 	</div>
 
-	<h1>Наши сертефикаты</h1>
 	<div class="certificate">
+		<h1 class="certificate__title">Наши сертефикаты</h1>
 		<div class="certificate__wrapper">
 			<div class="certificate__longblock">
-
-				<div class="certificate-item">
-					<a class="certificate-item__image fb" rel="certificate" href="/images/certificates/x-001.eb0.jpg"><img src="/images/certificates/x-001.eb0.jpg" alt=""></a>
-					<p class="certificate-item__title"></p>
-				</div>
-
 				<div class="certificate-item">
 					<a class="certificate-item__image fb" rel="certificate" href="/images/certificates/5Meibes.jpg"><img src="/images/certificates/5Meibes.jpg" alt=""></a>
 					<p class="certificate-item__title"></p>
@@ -309,11 +302,6 @@ if (isset($_POST['phone'])) {
 				</div>
 
 				<div class="certificate-item">
-					<a class="certificate-item__image fb" rel="certificate" href="/images/certificates/x-005.eb0.jpg"><img src="/images/certificates/x-005.eb0.jpg" alt=""></a>
-					<p class="certificate-item__title"></p>
-				</div>
-
-				<div class="certificate-item">
 					<a class="certificate-item__image fb" rel="certificate" href="/images/certificates/10Giacomini.jpg"><img src="/images/certificates/10Giacomini.jpg" alt=""></a>
 					<p class="certificate-item__title"></p>
 				</div>
@@ -325,8 +313,6 @@ if (isset($_POST['phone'])) {
 
 			</div>
 		</div>
-		<div class="certificate__arrow certificate__arrow_left"></div>
-		<div class="certificate__arrow certificate__arrow_right"></div>
 	</div>
 
 
@@ -378,7 +364,7 @@ if (isset($_POST['phone'])) {
 				</div>
 				<div class="col-xs-12 col-sm-6 type">
 					<div class="title">
-						<img src="images/types/electro.png" alt="">
+						<img src="images/types/gas.jpg" alt="">
 						<div class="name">Газовое отопление</div>
 					</div>
 					<div class="descr">
@@ -396,7 +382,7 @@ if (isset($_POST['phone'])) {
 				</div>
 				<div class="col-xs-12 col-sm-6 type">
 					<div class="title">
-						<img src="images/types/electro.png" alt="">
+						<img src="images/types/mixed.jpg" alt="">
 						<div class="name">Комбинированное<br> отопление</div>
 					</div>
 					<div class="descr">
