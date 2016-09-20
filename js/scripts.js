@@ -43,7 +43,7 @@
 		$('#portfolio').find('ul').bxSlider();
 		$('#brands').find('ul').bxSlider();
 
-		$("input[name=phone]").mask('8 (000) 000-00-00', {placeholder: "Введите свой номер"});
+		$("input[name=phone]").mask('8 (999) 999 99 99');
 
 		$('form').submit(function(){
 			var $this = $(this);

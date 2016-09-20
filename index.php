@@ -97,7 +97,7 @@ if (isset($_POST['phone'])) {
 						<span>8 800 775 85 94</span><br><br>
 						Или мы позвоним Вам сами <br><br>
 						<form method="POST">
-							<input class="base-input white-input" type="text" name="phone">
+							<input class="base-input white-input" type="text" name="phone" placeholder="Введите свой номер">
 							<input class="base-input red-button" type="submit" value="Заказать звонок">
 						</form>
 					</div>
@@ -153,7 +153,7 @@ if (isset($_POST['phone'])) {
 						</div>
 						<div class="left-number">Оставьте свой номер и мы перезвоним вам в ближайшее время</div>
 						<form method="POST">
-							<input class="base-input white-input" type="text" name="phone">
+							<input class="base-input white-input" type="text" name="phone" placeholder="Введите свой номер">
 							<input class="base-input red-button" type="submit" value="Заказать звонок">
 						</form>
 						<div class="call">
@@ -411,7 +411,7 @@ if (isset($_POST['phone'])) {
 			</h1>
 			<div class="left-number">Оставьте свой номер и мы перезвоним вам в ближайшее время</div>
 			<form method="POST">
-				<input class="base-input white-input" type="text" name="phone">
+				<input class="base-input white-input" type="text" name="phone" placeholder="Введите свой номер">
 				<input class="base-input red-button" type="submit" value="Заказать звонок">
 			</form>
 			<div class="call">
@@ -606,7 +606,7 @@ if (isset($_POST['phone'])) {
 		<div>
 			<form method="POST">
 				<span>Закажите звонок</span>
-				<input class="base-input white-input" type="text" name="phone">
+				<input class="base-input white-input" type="text" name="phone" placeholder="Введите свой номер">
 				<input class="base-input red-button" type="submit" value="Заказать звонок">
 			</form>
 		</div>
