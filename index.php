@@ -17,6 +17,7 @@ if (isset($_POST['phone'])) {
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/scripts.js"></script>
 	<script src="js/jquery.mask.js"></script>
+	<script src="js/fancybox/jquery.fancybox.pack.js"></script>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -27,6 +28,7 @@ if (isset($_POST['phone'])) {
 
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css"/>
+	<link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox.css"/>
 	<link rel="stylesheet" type="text/css" href="css/style.css"/>
 
 	<title>Центр инженерных систем</title>
@@ -182,7 +184,6 @@ if (isset($_POST['phone'])) {
 								<div class="descr">
 									BAXI GROUP является одной из крупнейших и наиболее профессиональных компаний в области отопления и домашнего комфорта, занимая по количеству производимых отопительного оборудования 3-е место в Европе.
 								</div>
-								<a href="#">Наш аттестат от BAXI GROUP</a>
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-6 col-md-4">
@@ -191,7 +192,6 @@ if (isset($_POST['phone'])) {
 								<div class="descr">
 									WATTEK — передовой разработчик решений в области систем отопления зданий.
 								</div>
-								<a href="#">Наш аттестат от WATTEK</a>
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-6 col-md-4">
@@ -200,7 +200,6 @@ if (isset($_POST['phone'])) {
 								<div class="descr">
 									De Dietrich производитель отопительной техники номер один во Франции. Приоритеты: экономия энергии и защита окружающей среды.
 								</div>
-								<a href="#">Наш аттестат от De Dietrich</a>
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-6 col-md-4">
@@ -209,7 +208,6 @@ if (isset($_POST['phone'])) {
 								<div class="descr">
 									Buderus – это комплексный поставщик современной энергоэффективной отопительной техники и систем комфортного климата
 								</div>
-								<a href="#">Наш аттестат от Buderus</a>
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-6 col-md-4">
@@ -218,7 +216,6 @@ if (isset($_POST['phone'])) {
 								<div class="descr">
 									Майбес - «Энергоэффективная техника. Компания применяет передовые достижения, бережно относится к природным ресурсам и использует альтернативные источники энергии.
 								</div>
-								<a href="#">Наш аттестат от Meibes</a>
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-6 col-md-4">
@@ -227,7 +224,6 @@ if (isset($_POST['phone'])) {
 								<div class="descr">
 									Oventrop является одним из ведущих производителей арматуры для инженерных коммуникаций
 								</div>
-								<a href="#">Наш аттестат от Oventrop</a>
 							</div>
 						</div>
 					</li>
@@ -238,7 +234,6 @@ if (isset($_POST['phone'])) {
 								<div class="descr">
 									ELSEN Systems представляет инновационные и высококачественные продукты для организации систем отопления и водоснабжения зданий.
 								</div>
-								<a href="#">Наш аттестат от ELSEN Systems</a>
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-6 col-md-4">
@@ -247,7 +242,6 @@ if (isset($_POST['phone'])) {
 								<div class="descr">
 									Kermi - системы отопления и Dusch-Design на протяжении более 50 лет.
 								</div>
-								<a href="#">Наш аттестат от Kermi</a>
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-6 col-md-4">
@@ -256,7 +250,6 @@ if (isset($_POST['phone'])) {
 								<div class="descr">
 									REHAU – безупречное немецкое качество, основанное на выдающихся инновациях и высокой надежности.
 								</div>
-								<a href="#">Наш аттестат от REHAU</a>
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-6 col-md-4">
@@ -265,7 +258,6 @@ if (isset($_POST['phone'])) {
 								<div class="descr">
 									Продукция GIACOMINI предназначена для систем, где основой и движущей силой является вода, которая приносит людям комфорт, здоровье и благополучие.
 								</div>
-								<a href="#">Наш аттестат от GIACOMINI</a>
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-6 col-md-4">
@@ -274,7 +266,6 @@ if (isset($_POST['phone'])) {
 								<div class="descr">
 									Компания ACV занимается разработкой, производством и продажей бытовых и промышленных систем обогрева и оборудования для горячего водоснабжения с 1922 года
 								</div>
-								<a href="#">Наш аттестат от ACV</a>
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-6 col-md-4">
@@ -283,7 +274,6 @@ if (isset($_POST['phone'])) {
 								<div class="descr">
 									Reflex Winkelmann GmbH - ведущий мировой поставщик решений, использующихся в системах тепло-и холодоснабжения зданий.
 								</div>
-								<a href="#">Наш аттестат от Reflex Winkelmann GmbH</a>
 							</div>
 						</div>
 					</li>
@@ -291,6 +281,52 @@ if (isset($_POST['phone'])) {
 			</div>
 		</div>
 	</div>
+
+	<div class="certificate">
+		<div class="certificate__wrapper">
+			<div class="certificate__longblock">
+
+				<div class="certificate-item">
+					<a class="certificate-item__image fb" rel="certificate" href="/images/certificates/x-001.eb0.jpg"><img src="/images/certificates/x-001.eb0.jpg" alt=""></a>
+					<p class="certificate-item__title"></p>
+				</div>
+
+				<div class="certificate-item">
+					<a class="certificate-item__image fb" rel="certificate" href="/images/certificates/5Meibes.jpg"><img src="/images/certificates/5Meibes.jpg" alt=""></a>
+					<p class="certificate-item__title"></p>
+				</div>
+
+				<div class="certificate-item">
+					<a class="certificate-item__image fb" rel="certificate" href="/images/certificates/9Rehau.jpg"><img src="/images/certificates/9Rehau.jpg" alt=""></a>
+					<p class="certificate-item__title"></p>
+				</div>
+
+				<div class="certificate-item">
+					<a class="certificate-item__image fb" rel="certificate" href="/images/certificates/x-004.eb0.jpg"><img src="/images/certificates/x-004.eb0.jpg" alt=""></a>
+					<p class="certificate-item__title"></p>
+				</div>
+
+				<div class="certificate-item">
+					<a class="certificate-item__image fb" rel="certificate" href="/images/certificates/x-005.eb0.jpg"><img src="/images/certificates/x-005.eb0.jpg" alt=""></a>
+					<p class="certificate-item__title"></p>
+				</div>
+
+				<div class="certificate-item">
+					<a class="certificate-item__image fb" rel="certificate" href="/images/certificates/10Giacomini.jpg"><img src="/images/certificates/10Giacomini.jpg" alt=""></a>
+					<p class="certificate-item__title"></p>
+				</div>
+
+				<div class="certificate-item">
+					<a class="certificate-item__image fb" rel="certificate" href="/images/certificates/x-007.eb0.jpg"><img src="/images/certificates/x-007.eb0.jpg" alt=""></a>
+					<p class="certificate-item__title"></p>
+				</div>
+
+			</div>
+		</div>
+		<div class="certificate__arrow certificate__arrow_left"></div>
+		<div class="certificate__arrow certificate__arrow_right"></div>
+	</div>
+
 
 	<div id="types">
 		<h1>Выбор отопления</h1>

@@ -1,3 +1,64 @@
+.certificate {
+  padding: 45px 45px 74px 45px;
+  margin-bottom: 40px;
+  position: relative;
+}
+.certificate__wrapper {
+  width: 69.0990991%;
+  height: 225px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+.certificate__longblock {
+  position: absolute;
+  left: 0;
+  width: 9999px;
+}
+.certificate-item {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin-right: 20px;
+  opacity: 0.3;
+}
+.certificate-item__image {
+  display: block;
+  height: 152px;
+  margin-bottom: 21px;
+}
+.certificate-item__image img {
+  border: 1px solid #D7DBE0;
+  height: 152px;
+}
+.certificate-item__title {
+  max-width: 180px;
+}
+.certificate__arrow {
+  position: absolute;
+  top: 101px;
+  width: 23px;
+  height: 44px;
+  cursor: pointer;
+  background: url(../images/arrow.png) no-repeat;
+}
+.certificate__arrow_left {
+  left: 10px;
+  background-position: 0 0;
+}
+.certificate__arrow_right {
+  right: 15px;
+  background-position: -23px 0;
+}
+.certificate__arrow_left:hover {
+  background-position: 0px -44px;
+}
+.certificate__arrow_right:hover {
+  background-position: -23px -44px;
+}
+.certificate-item:hover {
+  opacity: 1;
+}
 body {
   color: #000;
   font-family: Arial, serif;
