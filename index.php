@@ -1,10 +1,5 @@
 <?php
-$popup = false;
-
-if (isset($_POST['phone'])) {
-	mail('Nina.Rechistova@ya.ru', 'Вас просят перезвонить с лендинга Домотопления', "Клиент оставил телефон: ({$_POST['phone']}).");
-	$popup = true;
-}
+	$popup = (bool) $_GET['popup'];
 ?>
 
 <!DOCTYPE html>
@@ -98,7 +93,7 @@ if (isset($_POST['phone'])) {
 						Звоните на бесплатный номер<br>
 						<span>8 800 775 85 94</span><br><br>
 						Или мы позвоним Вам сами <br><br>
-						<form method="POST">
+						<form method="POST" action="mail.php">
 							<input class="base-input white-input" type="text" name="phone" placeholder="Введите свой номер">
 							<input class="base-input red-button" type="submit" value="Заказать звонок">
 						</form>
@@ -154,7 +149,7 @@ if (isset($_POST['phone'])) {
 							<p>— С консультации!</p>
 						</div>
 						<div class="left-number">Оставьте свой номер и мы перезвоним вам в ближайшее время</div>
-						<form method="POST">
+						<form method="POST" action="mail.php">
 							<input class="base-input white-input" type="text" name="phone" placeholder="Введите свой номер">
 							<input class="base-input red-button" type="submit" value="Заказать звонок">
 						</form>
@@ -410,7 +405,7 @@ if (isset($_POST['phone'])) {
 				отопительную систему
 			</h1>
 			<div class="left-number">Оставьте свой номер и мы перезвоним вам в ближайшее время</div>
-			<form method="POST">
+			<form method="POST" action="mail.php">
 				<input class="base-input white-input" type="text" name="phone" placeholder="Введите свой номер">
 				<input class="base-input red-button" type="submit" value="Заказать звонок">
 			</form>
@@ -610,7 +605,7 @@ if (isset($_POST['phone'])) {
 		<h1>Задайте вопрос нашему консультанту и получите <br>квалифицированный ответ.</h1>
 		<div class="no-money">Мы не берем денег за консультацию.</div>
 		<div>
-			<form method="POST">
+			<form method="POST" action="mail.php">
 				<span>Закажите звонок</span>
 				<input class="base-input white-input" type="text" name="phone" placeholder="Введите свой номер">
 				<input class="base-input red-button" type="submit" value="Заказать звонок">
