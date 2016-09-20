@@ -49,9 +49,22 @@
 			var $this = $(this);
 
 			if ($this.find('input[name=phone]').val().length < 17) {
-				alert('Пожалуйста, проверьте правильно ли введен телефон');
-				return false;
+				$('#popup-error').modal();
 			}
+			else{
+				$.post($(this).attr('action'), {
+					'phone': $(this).find('input[name=phone]').val()
+				}, function(data){
+					if (data.success){
+						$('#popup').modal();
+					}
+					else{
+						alert('Ошибка! Попробуйте позже');
+					}
+				});
+			}
+
+			return false;
 		});
 
 		var certLongBlock = $('.certificate__longblock');

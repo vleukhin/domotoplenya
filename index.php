@@ -1,7 +1,3 @@
-<?php
-	$popup = (bool) $_GET['popup'];
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -629,14 +625,15 @@
 		</div>
 	</div>
 </div>
-<?php if ($popup): ?>
-	<script>
-		(function ($) {
-			$(document).ready(function () {
-				$('#popup').modal();
-			});
-		})(window.jQuery);
-	</script>
-<?php endif;?>
+<div class="modal fade" id="popup-error" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			<div class="clearfix"></div>
+			<h1>Ошибка!</h1>
+			<p>Пожалуйста, проверьте правильно ли введен телефон.</p>
+		</div>
+	</div>
+</div>
 </body>
 </html>
