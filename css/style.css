@@ -369,8 +369,8 @@ header .contacts .phone {
   margin: 0 auto;
 }
 #portfolio .job img.thumb {
-  max-height: 80px;
-  height: 26.14379085%;
+  max-width: 140px;
+  width: 45.75163399%;
   margin: 3px;
   cursor: pointer;
   display: inline;
@@ -722,5 +722,9 @@ h1 {
   .about .images {
     position: absolute;
     bottom: 0;
+  }
+  .about .images img.thumb {
+    max-height: 80px;
+    height: 26.14379085%;
   }
 }

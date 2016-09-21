@@ -40,8 +40,8 @@
 			}
 		});
 
-		$('#portfolio').find('ul').bxSlider();
-		$('#brands').find('ul').bxSlider();
+		$('#portfolio').find('ul').bxSlider({adaptiveHeight: true});
+		$('#brands').find('ul').bxSlider({adaptiveHeight: true});
 
 		$("input[name=phone]").mask('8 (999) 999 99 99');
 
