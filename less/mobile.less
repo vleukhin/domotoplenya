@@ -131,7 +131,10 @@
 		}
 
 		#flow {
+			padding: 0;
+
 			.work-flow {
+				padding: 0 50px 20px;
 				ul {
 					li {
 						> div {
@@ -139,7 +142,23 @@
 						}
 
 						margin-bottom: 20px;
+
+						.icon{
+							float: none;
+							display: block;
+							margin: 0 auto;
+						}
 					}
+				}
+			}
+
+			.form{
+				padding: 0;
+
+				.base-input {
+					display: block;
+					margin: 0 auto;
+					width: 260px;
 				}
 			}
 		}
@@ -221,8 +240,16 @@
 			}
 		}
 	}
-
 }
 
-@media (min-width: @screen-lg-min) {
+@media (min-width: @screen-md-min) {
+	.about{
+		position: relative;
+		min-height: 400px;
+
+		.images{
+			position: absolute;
+			bottom: 0;
+		}
+	}
 }

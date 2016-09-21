@@ -227,6 +227,7 @@ header .contacts .phone {
   text-align: center;
   margin-right: 10px;
   float: left;
+  line-height: 27px;
 }
 #flow .form {
   padding-left: 7%;
@@ -376,14 +377,6 @@ header .contacts .phone {
 }
 #portfolio .job img.thumb.active {
   border: 3px solid #5c5c5c;
-}
-#portfolio .job .about {
-  position: relative;
-  min-height: 400px;
-}
-#portfolio .job .about .images {
-  position: absolute;
-  bottom: 0;
 }
 #portfolio .job .title {
   font-size: 18px;
@@ -547,7 +540,7 @@ h1 {
   display: none;
 }
 .modal .modal-content {
-  height: 200px;
+  padding-bottom: 20px;
   background: #fedb49;
   border-radius: 0;
   box-shadow: none;
@@ -557,7 +550,7 @@ h1 {
   text-align: center;
   font-size: 26px;
   font-weight: normal;
-  margin: 17px;
+  margin: 0 17px 17px;
 }
 .modal p {
   text-align: center;
@@ -663,11 +656,30 @@ h1 {
     font-size: 20px;
     line-height: 30px;
   }
+  #flow {
+    padding: 0;
+  }
+  #flow .work-flow {
+    padding: 0 50px 20px;
+  }
   #flow .work-flow ul li {
     margin-bottom: 20px;
   }
   #flow .work-flow ul li > div {
     float: left;
+  }
+  #flow .work-flow ul li .icon {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+  #flow .form {
+    padding: 0;
+  }
+  #flow .form .base-input {
+    display: block;
+    margin: 0 auto;
+    width: 260px;
   }
   #portfolio .job img.thumb {
     margin: 5px auto;
@@ -700,5 +712,15 @@ h1 {
   .bx-wrapper .bx-controls-direction a {
     width: 17px;
     height: 35px;
+  }
+}
+@media (min-width: 992px) {
+  .about {
+    position: relative;
+    min-height: 400px;
+  }
+  .about .images {
+    position: absolute;
+    bottom: 0;
   }
 }
