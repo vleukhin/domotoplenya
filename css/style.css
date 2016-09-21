@@ -715,15 +715,15 @@ h1 {
   }
 }
 @media (min-width: 992px) {
-  .about {
+  #portfolio .about {
     position: relative;
     min-height: 400px;
   }
-  .about .images {
+  #portfolio .about .images {
     position: absolute;
     bottom: 0;
   }
-  .about .images img.thumb {
+  #portfolio .about .images img.thumb {
     max-height: 80px;
     height: 26.14379085%;
   }
