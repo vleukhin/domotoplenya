@@ -726,5 +726,6 @@ h1 {
   #portfolio .about .images img.thumb {
     max-height: 80px;
     height: 26.14379085%;
+    width: auto;
   }
 }
