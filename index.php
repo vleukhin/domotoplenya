@@ -318,7 +318,7 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-6 type">
 					<div class="title">
-						<img src="images/types/electro.png" alt="">
+						<img src="images/types/electro.jpg" alt="">
 						<div class="name">Электрическое отопление (инфракрасное <br>или конвекторное)</div>
 					</div>
 					<div class="descr">
@@ -335,7 +335,7 @@
 				</div>
 				<div class="col-xs-12 col-sm-6 type">
 					<div class="title">
-						<img src="images/types/electro.png" alt="">
+						<img src="images/types/air.jpg" alt="">
 						<div class="name">Воздушное отопление</div>
 					</div>
 					<div class="descr">
