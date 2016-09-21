@@ -517,7 +517,7 @@
 					<div class="container-fluid">
 						<div class="row">
 							<div class="col-xs-12 col-sm-6 col-md-7">
-								<img src="images/portfolio/3/1.jpg" alt="" class="main">
+								<img src="images/portfolio/4/1.jpg" alt="" class="main">
 							</div>
 							<div class="col-xs-12 col-sm-6 col-md-5 about">
 								<div class="title">
