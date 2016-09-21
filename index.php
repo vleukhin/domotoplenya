@@ -170,7 +170,7 @@
 			<div class="row">
 				<ul>
 					<li>
-						<div class="col-xs-12 col-sm-6 col-md-4">
+						<div class="col-xs-12 col-sm-6 col-md-4 brand-wrapper">
 							<div class="brand">
 								<img src="images/brands/1BAXI.JPG" alt="" class="logo">
 								<div class="descr">
@@ -178,7 +178,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-xs-12 col-sm-6 col-md-4">
+						<div class="col-xs-12 col-sm-6 col-md-4 brand-wrapper">
 							<div class="brand">
 								<img src="images/brands/2WATTEK.JPG" alt="" class="logo">
 								<div class="descr">
@@ -186,7 +186,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-xs-12 col-sm-6 col-md-4">
+						<div class="col-xs-12 col-sm-6 col-md-4 brand-wrapper">
 							<div class="brand">
 								<img src="images/brands/3DeDietrich.JPG" alt="" class="logo">
 								<div class="descr">
@@ -194,7 +194,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-xs-12 col-sm-6 col-md-4">
+						<div class="col-xs-12 col-sm-6 col-md-4 brand-wrapper">
 							<div class="brand">
 								<img src="images/brands/4Buderus.JPG" alt="" class="logo">
 								<div class="descr">
@@ -202,7 +202,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-xs-12 col-sm-6 col-md-4">
+						<div class="col-xs-12 col-sm-6 col-md-4 brand-wrapper">
 							<div class="brand">
 								<img src="images/brands/5Meibes.JPG" alt="" class="logo">
 								<div class="descr">
@@ -210,7 +210,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-xs-12 col-sm-6 col-md-4">
+						<div class="col-xs-12 col-sm-6 col-md-4 brand-wrapper">
 							<div class="brand">
 								<img src="images/brands/6Oventrop.JPG" alt="" class="logo">
 								<div class="descr">
@@ -220,7 +220,7 @@
 						</div>
 					</li>
 					<li>
-						<div class="col-xs-12 col-sm-6 col-md-4">
+						<div class="col-xs-12 col-sm-6 col-md-4 brand-wrapper">
 							<div class="brand">
 								<img src="images/brands/7Elsen.JPG" alt="" class="logo">
 								<div class="descr">
@@ -228,7 +228,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-xs-12 col-sm-6 col-md-4">
+						<div class="col-xs-12 col-sm-6 col-md-4 brand-wrapper">
 							<div class="brand">
 								<img src="images/brands/8Kermi.JPG" alt="" class="logo">
 								<div class="descr">
@@ -236,7 +236,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-xs-12 col-sm-6 col-md-4">
+						<div class="col-xs-12 col-sm-6 col-md-4 brand-wrapper">
 							<div class="brand">
 								<img src="images/brands/9Rehau.JPG" alt="" class="logo">
 								<div class="descr">
@@ -244,7 +244,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-xs-12 col-sm-6 col-md-4">
+						<div class="col-xs-12 col-sm-6 col-md-4 brand-wrapper">
 							<div class="brand">
 								<img src="images/brands/10Giacomini.JPG" alt="" class="logo">
 								<div class="descr">
@@ -252,7 +252,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-xs-12 col-sm-6 col-md-4">
+						<div class="col-xs-12 col-sm-6 col-md-4 brand-wrapper">
 							<div class="brand">
 								<img src="images/brands/11ACV.JPG" alt="" class="logo">
 								<div class="descr">
@@ -260,7 +260,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-xs-12 col-sm-6 col-md-4">
+						<div class="col-xs-12 col-sm-6 col-md-4 brand-wrapper">
 							<div class="brand">
 								<img src="images/brands/12reflex.JPG" alt="" class="logo">
 								<div class="descr">

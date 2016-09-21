@@ -4,7 +4,21 @@
 		var menu = $('#menu');
 		var offset = menu.offset().top;
 		var header = $('header');
-		var height = menu.height() + 36;
+		var menuHeight = menu.height() + 36;
+		var brands = $('#brands');
+
+		var scrWidth  =0;
+
+		if (self.screen) {
+			scrWidth = screen.width;
+		}
+		else if (self.java) {
+			var jkit = java.awt.Toolkit.getDefaultToolkit();
+			var scrsize = jkit.getScreenSize();
+			scrWidth = scrsize.width;
+		}
+
+		buildBrands();
 
 		$(document).on('click', '#menu a', function (event) {
 			event.preventDefault();
@@ -20,7 +34,7 @@
 			if (scroll >= offset) {
 				if (!menu.hasClass('sticky')) {
 					menu.addClass('sticky');
-					header.css('margin-bottom', '+' + height + 'px')
+					header.css('margin-bottom', '+' + menuHeight + 'px')
 				}
 			}
 			else if (menu.hasClass('sticky')) {
@@ -41,7 +55,6 @@
 		});
 
 		$('#portfolio').find('ul').bxSlider({adaptiveHeight: true});
-		$('#brands').find('ul').bxSlider({adaptiveHeight: true});
 
 		$("input[name=phone]").mask('8 (999) 999 99 99');
 
@@ -90,5 +103,39 @@
 		$('.certificate__arrow_right').click(certificatright);
 
 		$('.fb').fancybox();
+
+		function buildBrands(){
+			var brandsList = brands.find('.slideshow ul');
+
+			var items = brandsList.find('.brand-wrapper');
+
+			var limit = 1;
+
+			if (scrWidth > 767 && scrWidth < 991){
+				limit = 4
+			}
+			else if (scrWidth > 991) {
+				limit = 6
+			}
+
+			var count = 0;
+
+			brandsList.html('');
+
+			var li = $('<li/>');
+
+			items.each(function(index, item){
+				count++;
+				li.append(item);
+
+				if (count == limit){
+					brandsList.append(li);
+					li = $('<li/>');
+					count = 0;
+				}
+			});
+
+			brands.find('ul').bxSlider({adaptiveHeight: true});
+		}
 	});
 })(window.jQuery);
