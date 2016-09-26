@@ -39,7 +39,7 @@
 				</div>
 				<div class="col-sm-4 col-xs-12 contacts">
 					<div>Москва <span class="phone">8 495 255 44 50</span></div>
-					<div>Тула <span class="phone">8 495 255 44 50</span></div>
+					<div>Тула <span class="phone">8 4872 52 51 05</span></div>
 					<div>Почта для заявок <span class="phone"><a
 								href="mailto:info@hotklimat.ru">info@hotklimat.ru</a></span></div>
 				</div>
