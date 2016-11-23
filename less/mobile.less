@@ -1,0 +1,263 @@
+@import-once "vars";
+
+@media (max-width: @screen-xs-max) {
+	header {
+		.row {
+			> div {
+				padding-bottom: 10px;
+			}
+		}
+		.logo {
+			padding-left: 5%;
+			> div {
+				margin: 0 auto;
+			}
+		}
+		.contacts {
+			text-align: center;
+		}
+	}
+
+	#slogan {
+		.logo-bg {
+			margin: 0 auto;
+
+			.heading {
+				font-size: 3em;
+				font-weight: bold;
+				text-transform: uppercase;
+				line-height: 55px;
+			}
+
+			.locations {
+				font-size: 2em;
+				margin-top: 21px;
+				line-height: 61px;
+			}
+		}
+
+	}
+
+	#services {
+		.list {
+			ul {
+				font-size: 25px;
+				line-height: 38px;
+			}
+
+			padding-bottom: 30px;
+		}
+	}
+
+	#flow {
+		.work-flow {
+			padding-bottom: 20px;
+			margin: 0 auto;
+		}
+
+		.form {
+			margin: 0 auto;
+
+			> div {
+				margin: 0 auto;
+			}
+		}
+	}
+
+	#portfolio {
+		.job {
+			img {
+				&.main {
+					margin-bottom: 30px;
+				}
+			}
+
+			.title {
+				text-align: center;
+			}
+		}
+	}
+
+	footer {
+		h1{
+			font-size: 22px;
+		}
+		form {
+			span{
+				margin-bottom: 10px;
+			}
+
+			.white-input, .red-button {
+				display: block;
+				margin: 0 auto;
+				width: 260px;
+			}
+		}
+
+		.contacts{
+			span{
+				display: block;
+				margin: 7px auto;
+			}
+		}
+	}
+
+	@media (max-width: 400px) {
+		#slogan {
+			height: 435px;
+
+			.logo-bg {
+				padding: 25% 0;
+
+				.heading {
+					font-size: 2em;
+					line-height: 40px;
+				}
+
+				.locations {
+					font-size: 1.5em;
+					line-height: 40px;
+				}
+			}
+		}
+
+		#services {
+			.list {
+				ul {
+					font-size: 20px;
+					line-height: 30px;
+				}
+			}
+		}
+
+		#flow {
+			padding: 0;
+
+			.work-flow {
+				padding: 0 50px 20px;
+				ul {
+					li {
+						> div {
+							float: left;
+						}
+
+						margin-bottom: 20px;
+
+						.icon{
+							float: none;
+							display: block;
+							margin: 0 auto;
+						}
+					}
+				}
+			}
+
+			.form{
+				padding: 0;
+
+				.base-input {
+					display: block;
+					margin: 0 auto;
+					width: 260px;
+				}
+			}
+		}
+
+		#portfolio {
+			.job {
+				img {
+					&.thumb {
+						margin: 5px auto;
+						display: block;
+					}
+				}
+			}
+		}
+
+		.bx-wrapper {
+			.bx-controls-direction{
+				a{
+					width: 16px;
+					height: 30px;
+				}
+			}
+		}
+	}
+
+	.certificate__wrapper{
+		width: 100%;
+	}
+}
+
+// bs sm and xs
+@media (max-width: @screen-sm-max) {
+	#services {
+		.form {
+			.info {
+				.red-button {
+					width: 260px;
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+	#services {
+		.form {
+			.info {
+				.red-button {
+					width: 260px;
+				}
+			}
+		}
+	}
+}
+
+// bs md and smaller
+
+@media (max-width: @screen-md-max) {
+	#flow {
+		.form {
+			.dialog {
+				font-size: 20px;
+				padding-left: 22px;
+
+				p {
+					font-size: 22px;
+					padding-left: 12px;
+				}
+			}
+
+		}
+	}
+
+	.bx-wrapper {
+		.bx-controls-direction{
+			a{
+				width: 17px;
+				height: 35px;
+			}
+		}
+	}
+}
+
+@media (min-width: @screen-md-min) {
+	#portfolio{
+		.about{
+			position: relative;
+			min-height: 400px;
+
+			.images{
+				position: absolute;
+				bottom: 0;
+
+				img.thumb{
+					max-height: 80px;
+					height: percentage(80px/306px);
+					width: auto;
+				}
+			}
+		}
+	}
+}
