@@ -8,4 +8,4 @@ if (isset($_POST['phone'])) {
 	$success = true;
 }
 
-echo json_encode(['success' => $success]);
+echo json_encode(array('success' => $success));
