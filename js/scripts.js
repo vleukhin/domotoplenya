@@ -40,7 +40,6 @@
 			else if (menu.hasClass('sticky')) {
 				menu.removeClass('sticky');
 				header.css('margin-bottom', '')
-
 			}
 		});
 
@@ -70,6 +69,7 @@
 				}, function(data){
 					if (data.success){
 						$('#popup').modal();
+						yaCounter41102594.reachGoal('order_call');
 					}
 					else{
 						alert('Ошибка! Попробуйте позже');
